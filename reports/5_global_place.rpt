@@ -1,0 +1,250 @@
+
+==========================================================================
+global place check_setup
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+global place report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+global place report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+global place report_worst_slack
+--------------------------------------------------------------------------
+worst slack 22.93
+
+==========================================================================
+global place report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[30]$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: soc.system_core_cpu.memory_to_writeBack_MEMORY_READ_DATA[30]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.25    0.00    0.00 ^ soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[30]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.02    0.27    0.27 v soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[30]$_DFF_P_/Q (sg13g2_dfrbp_1)
+                                         soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[30] (net)
+                  0.02    0.00    0.27 v soc.system_core_cpu.memory_to_writeBack_MEMORY_READ_DATA[30]$_DFF_P_/D (sg13g2_dfrbp_1)
+                                  0.27   data arrival time
+
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.15    0.15   clock uncertainty
+                          0.00    0.15   clock reconvergence pessimism
+                                  0.15 ^ soc.system_core_cpu.memory_to_writeBack_MEMORY_READ_DATA[30]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+                          0.03    0.18   library hold time
+                                  0.18   data required time
+-----------------------------------------------------------------------------
+                                  0.18   data required time
+                                 -0.27   data arrival time
+-----------------------------------------------------------------------------
+                                  0.09   slack (MET)
+
+
+Startpoint: soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_jtag)
+Endpoint: soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_
+          (rising edge-triggered flip-flop clocked by clk_jtag)
+Path Group: clk_jtag
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_jtag (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.25    0.00    0.00 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.03    0.23    0.23 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/Q_N (sg13g2_dfrbp_1)
+                                         _000149_ (net)
+                  0.03    0.00    0.23 ^ _115835_/A1 (sg13g2_mux2_1)
+     1    0.00    0.02    0.06    0.29 ^ _115835_/X (sg13g2_mux2_1)
+                                         _037780_ (net)
+                  0.02    0.00    0.29 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/D (sg13g2_dfrbp_1)
+                                  0.29   data arrival time
+
+                  0.25    0.00    0.00   clock clk_jtag (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.15    0.15   clock uncertainty
+                          0.00    0.15   clock reconvergence pessimism
+                                  0.15 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+                         -0.02    0.13   library hold time
+                                  0.13   data required time
+-----------------------------------------------------------------------------
+                                  0.13   data required time
+                                 -0.29   data arrival time
+-----------------------------------------------------------------------------
+                                  0.16   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: io_reset_PAD (input port clocked by clk_core)
+Endpoint: soc.system_core_cpu._zz_5$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          8.00    8.00 v input external delay
+     2    5.02    0.00    0.00    8.00 v io_reset_PAD (inout)
+                                         io_reset_PAD (net)
+                  0.00    0.00    8.00 v sg13g2_IOPadIn_2/pad (sg13g2_IOPadIn)
+   197    0.68    0.20    1.00    9.00 v sg13g2_IOPadIn_2/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_2_p2c (net)
+                  0.20    0.04    9.04 v _087201_/A (sg13g2_inv_1)
+   667    2.35    9.40    6.55   15.59 ^ _087201_/Y (sg13g2_inv_1)
+                                         _013106_ (net)
+                  9.40    0.03   15.62 ^ soc.system_core_cpu._zz_5$_DFF_P_/D (sg13g2_dfrbp_1)
+                                 15.62   data arrival time
+
+                  0.25   40.00   40.00   clock clk_core (rise edge)
+                          0.00   40.00   clock network delay (ideal)
+                         -0.15   39.85   clock uncertainty
+                          0.00   39.85   clock reconvergence pessimism
+                                 39.85 ^ soc.system_core_cpu._zz_5$_DFF_P_/CLK (sg13g2_dfrbp_1)
+                         -1.30   38.55   library setup time
+                                 38.55   data required time
+-----------------------------------------------------------------------------
+                                 38.55   data required time
+                                -15.62   data arrival time
+-----------------------------------------------------------------------------
+                                 22.93   slack (MET)
+
+
+Startpoint: soc.io_plat_jtag_tdo$_DFF_N_
+            (rising edge-triggered flip-flop clocked by clk_jtag')
+Endpoint: io_jtag_tdo_PAD (output port clocked by clk_jtag)
+Path Group: clk_jtag
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25   50.00   50.00   clock clk_jtag' (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                  0.25    0.00   50.00 ^ soc.io_plat_jtag_tdo$_DFF_N_/CLK (sg13g2_dfrbp_1)
+     1    0.02    0.08    0.33   50.33 ^ soc.io_plat_jtag_tdo$_DFF_N_/Q (sg13g2_dfrbp_1)
+                                         soc.io_plat_jtag_tdo (net)
+                  0.08    0.00   50.33 ^ sg13g2_IOPadOut4mA_1/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    0.20    1.00   51.33 ^ sg13g2_IOPadOut4mA_1/pad (sg13g2_IOPadOut4mA)
+                                         io_jtag_tdo_PAD (net)
+     0    5.00    0.20    0.00   51.33 ^ io_jtag_tdo_PAD (inout)
+                                         io_jtag_tdo_PAD (net)
+                                 51.33   data arrival time
+
+                  0.25  100.00  100.00   clock clk_jtag (rise edge)
+                          0.00  100.00   clock network delay (ideal)
+                         -0.15   99.85   clock uncertainty
+                          0.00   99.85   clock reconvergence pessimism
+                         -8.00   91.85   output external delay
+                                 91.85   data required time
+-----------------------------------------------------------------------------
+                                 91.85   data required time
+                                -51.33   data arrival time
+-----------------------------------------------------------------------------
+                                 40.52   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: io_reset_PAD (input port clocked by clk_core)
+Endpoint: soc.system_core_cpu._zz_5$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25    0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          8.00    8.00 v input external delay
+     2    5.02    0.00    0.00    8.00 v io_reset_PAD (inout)
+                                         io_reset_PAD (net)
+                  0.00    0.00    8.00 v sg13g2_IOPadIn_2/pad (sg13g2_IOPadIn)
+   197    0.68    0.20    1.00    9.00 v sg13g2_IOPadIn_2/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_2_p2c (net)
+                  0.20    0.04    9.04 v _087201_/A (sg13g2_inv_1)
+   667    2.35    9.40    6.55   15.59 ^ _087201_/Y (sg13g2_inv_1)
+                                         _013106_ (net)
+                  9.40    0.03   15.62 ^ soc.system_core_cpu._zz_5$_DFF_P_/D (sg13g2_dfrbp_1)
+                                 15.62   data arrival time
+
+                  0.25   40.00   40.00   clock clk_core (rise edge)
+                          0.00   40.00   clock network delay (ideal)
+                         -0.15   39.85   clock uncertainty
+                          0.00   39.85   clock reconvergence pessimism
+                                 39.85 ^ soc.system_core_cpu._zz_5$_DFF_P_/CLK (sg13g2_dfrbp_1)
+                         -1.30   38.55   library setup time
+                                 38.55   data required time
+-----------------------------------------------------------------------------
+                                 38.55   data required time
+                                -15.62   data arrival time
+-----------------------------------------------------------------------------
+                                 22.93   slack (MET)
+
+
+Startpoint: soc.io_plat_jtag_tdo$_DFF_N_
+            (rising edge-triggered flip-flop clocked by clk_jtag')
+Endpoint: io_jtag_tdo_PAD (output port clocked by clk_jtag)
+Path Group: clk_jtag
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.25   50.00   50.00   clock clk_jtag' (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                  0.25    0.00   50.00 ^ soc.io_plat_jtag_tdo$_DFF_N_/CLK (sg13g2_dfrbp_1)
+     1    0.02    0.08    0.33   50.33 ^ soc.io_plat_jtag_tdo$_DFF_N_/Q (sg13g2_dfrbp_1)
+                                         soc.io_plat_jtag_tdo (net)
+                  0.08    0.00   50.33 ^ sg13g2_IOPadOut4mA_1/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    0.20    1.00   51.33 ^ sg13g2_IOPadOut4mA_1/pad (sg13g2_IOPadOut4mA)
+                                         io_jtag_tdo_PAD (net)
+     0    5.00    0.20    0.00   51.33 ^ io_jtag_tdo_PAD (inout)
+                                         io_jtag_tdo_PAD (net)
+                                 51.33   data arrival time
+
+                  0.25  100.00  100.00   clock clk_jtag (rise edge)
+                          0.00  100.00   clock network delay (ideal)
+                         -0.15   99.85   clock uncertainty
+                          0.00   99.85   clock reconvergence pessimism
+                         -8.00   91.85   output external delay
+                                 91.85   data required time
+-----------------------------------------------------------------------------
+                                 91.85   data required time
+                                -51.33   data arrival time
+-----------------------------------------------------------------------------
+                                 40.52   slack (MET)
+
+
+
+==========================================================================
+global place report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             3.92e-03   9.46e-04   3.23e-06   4.87e-03  40.3%
+Combinational          5.20e-03   1.59e-03   4.31e-06   6.80e-03  56.3%
+Clock                  1.89e-09   2.09e-09   6.30e-11   4.04e-09   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   4.16e-04   0.00e+00   4.16e-04   3.4%
+----------------------------------------------------------------
+Total                  9.12e-03   2.95e-03   7.53e-06   1.21e-02 100.0%
+                          75.5%      24.5%       0.1%

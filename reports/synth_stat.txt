@@ -1,0 +1,76 @@
+
+18. Printing statistics.
+
+=== ElemRVTop ===
+
+   Number of wires:              87876
+   Number of wire bits:          87876
+   Number of public wires:        7239
+   Number of public wire bits:    7239
+   Number of ports:                 30
+   Number of port bits:             30
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              80950
+     sg13g2_IOPadIn                  7
+     sg13g2_IOPadInOut30mA           9
+     sg13g2_IOPadInOut4mA            6
+     sg13g2_IOPadOut30mA             1
+     sg13g2_IOPadOut4mA              7
+     sg13g2_a21o_1                 469
+     sg13g2_a21o_2                  34
+     sg13g2_a21oi_1               2529
+     sg13g2_a21oi_2                154
+     sg13g2_a221oi_1               229
+     sg13g2_a22oi_1               1282
+     sg13g2_and2_1                 740
+     sg13g2_and2_2                   9
+     sg13g2_and3_1                   1
+     sg13g2_and3_2                 114
+     sg13g2_and4_1                  43
+     sg13g2_and4_2                  16
+     sg13g2_buf_1                33677
+     sg13g2_buf_16                 265
+     sg13g2_buf_2                 3152
+     sg13g2_buf_4                 3159
+     sg13g2_buf_8                 3262
+     sg13g2_dfrbp_1               6904
+     sg13g2_dlygate4sd1_1           29
+     sg13g2_inv_1                 1008
+     sg13g2_inv_2                   76
+     sg13g2_inv_4                   13
+     sg13g2_inv_8                    2
+     sg13g2_mux2_1                2876
+     sg13g2_mux2_2                   5
+     sg13g2_mux4_1                1428
+     sg13g2_nand2_1               5616
+     sg13g2_nand2_2                382
+     sg13g2_nand2b_1               585
+     sg13g2_nand2b_2                28
+     sg13g2_nand3_1                630
+     sg13g2_nand3b_1               100
+     sg13g2_nand4_1                225
+     sg13g2_nor2_1                2604
+     sg13g2_nor2_2                 137
+     sg13g2_nor2b_1                713
+     sg13g2_nor2b_2                 21
+     sg13g2_nor3_1                 404
+     sg13g2_nor3_2                  65
+     sg13g2_nor4_1                 122
+     sg13g2_nor4_2                  23
+     sg13g2_o21ai_1               4229
+     sg13g2_or2_1                  279
+     sg13g2_or2_2                    9
+     sg13g2_or3_1                   66
+     sg13g2_or3_2                    5
+     sg13g2_or4_1                   22
+     sg13g2_or4_2                    1
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1               2284
+     sg13g2_xor2_1                 892
+
+   Chip area for module '\ElemRVTop': 1518965.838000
+     of which used for sequential elements: 325692.057600 (21.44%)
+

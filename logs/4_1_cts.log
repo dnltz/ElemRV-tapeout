@@ -1,0 +1,163 @@
+OpenROAD b98aca833f9827e7f20a8fa3c6defa56fa92e506 
+Features included (+) or not (-):  +Charts +GPU +GUI +MPL2 +PAR +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+clock_tree_synthesis -sink_clustering_enable -balance_levels
+[INFO CTS-0050] Root buffer is sg13g2_buf_4.
+[INFO CTS-0051] Sink buffer is sg13g2_buf_8.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sg13g2_buf_4
+                    sg13g2_buf_8
+[INFO CTS-0049] Characterization buffer is sg13g2_buf_8.
+[INFO CTS-0007] Net "sg13g2_IOPadIn_1_p2c" found for clock "clk_core".
+[INFO CTS-0010]  Clock net "sg13g2_IOPadIn_1_p2c" has 6808 sinks.
+[INFO CTS-0007] Net "sg13g2_IOPadIn_5_p2c" found for clock "clk_jtag".
+[INFO CTS-0010]  Clock net "sg13g2_IOPadIn_5_p2c" has 96 sinks.
+[WARNING CTS-0041] Net "net11309" has 1 sinks. Skipping...
+[INFO CTS-0008] TritonCTS found 2 clock nets.
+[INFO CTS-0097] Characterization used 2 buffer(s) types.
+[INFO CTS-0200] 0 placement blockages have been identified.
+[INFO CTS-0201] 0 placed hard macros will be treated like blockages.
+[INFO CTS-0027] Generating H-Tree topology for net sg13g2_IOPadIn_1_p2c.
+[INFO CTS-0028]  Total number of sinks: 6808.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 18900  dbu (18 um).
+[INFO CTS-0206] Best clustering solution was found from clustering size of 10 and clustering diameter of 50.
+[INFO CTS-0019]  Total number of sinks after clustering: 685.
+[INFO CTS-0024]  Normalized sink region: [(18.0333, 18.2118), (80.5629, 80.5173)].
+[INFO CTS-0025]     Width:  62.5295.
+[INFO CTS-0026]     Height: 62.3054.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 343
+    Sub-region size: 31.2648 X 62.3054
+[INFO CTS-0034]     Segment length (rounded): 16.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 172
+    Sub-region size: 31.2648 X 31.1527
+[INFO CTS-0034]     Segment length (rounded): 16.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 86
+    Sub-region size: 15.6324 X 31.1527
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 4
+    Direction: Vertical
+    Sinks per sub-region: 43
+    Sub-region size: 15.6324 X 15.5764
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 5
+    Direction: Horizontal
+    Sinks per sub-region: 22
+    Sub-region size: 7.8162 X 15.5764
+[INFO CTS-0034]     Segment length (rounded): 4.
+ Level 6
+    Direction: Vertical
+    Sinks per sub-region: 11
+    Sub-region size: 7.8162 X 7.7882
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 685.
+[INFO CTS-0200] 0 placement blockages have been identified.
+[INFO CTS-0201] 0 placed hard macros will be treated like blockages.
+[INFO CTS-0027] Generating H-Tree topology for net sg13g2_IOPadIn_5_p2c.
+[INFO CTS-0028]  Total number of sinks: 96.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 18900  dbu (18 um).
+[INFO CTS-0023]  Original sink region: [(353356, 355317), (928396, 739117)].
+[INFO CTS-0024]  Normalized sink region: [(18.6961, 18.7998), (49.1215, 39.1067)].
+[INFO CTS-0025]     Width:  30.4254.
+[INFO CTS-0026]     Height: 20.3069.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 48
+    Sub-region size: 15.2127 X 20.3069
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 24
+    Sub-region size: 15.2127 X 10.1534
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 12
+    Sub-region size: 7.6063 X 10.1534
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 96.
+[INFO CTS-0018]     Created 754 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 4.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 4.
+[INFO CTS-0015]     Created 754 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 3:1, 4:4, 5:6, 6:6, 7:14, 8:49, 9:144, 10:263, 11:178, 12:64, 13:14, 14:6..
+[INFO CTS-0017]     Max level of the clock tree: 6.
+[INFO CTS-0018]     Created 9 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 9 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 7:1, 9:1, 10:1, 13:2, 14:2, 16:1..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0098] Clock net "sg13g2_IOPadIn_1_p2c"
+[INFO CTS-0099]  Sinks 6808
+[INFO CTS-0100]  Leaf buffers 685
+[INFO CTS-0101]  Average sink wire length 1640.19 um
+[INFO CTS-0102]  Path depth 4 - 4
+[INFO CTS-0098] Clock net "sg13g2_IOPadIn_5_p2c"
+[INFO CTS-0099]  Sinks 96
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 1113.10 um
+[INFO CTS-0102]  Path depth 2 - 2
+Report metrics stage 4, cts pre-repair...
+Warning: There are 20 input ports missing set_input_delay.
+Warning: There are 10 output ports missing set_output_delay.
+Warning: There are 23 unconstrained endpoints.
+
+==========================================================================
+cts pre-repair report_design_area
+--------------------------------------------------------------------------
+Design area 787049 u^2 54% utilization.
+[INFO RSZ-0058] Using max wire length 15963um.
+Report metrics stage 4, cts post-repair...
+Warning: There are 20 input ports missing set_input_delay.
+Warning: There are 10 output ports missing set_output_delay.
+Warning: There are 23 unconstrained endpoints.
+
+==========================================================================
+cts post-repair report_design_area
+--------------------------------------------------------------------------
+Design area 787049 u^2 54% utilization.
+[WARNING DPL-0038] No 1-site fill cells detected.  To remove 1-site gaps use the -disallow_one_site_gaps flag.
+Placement Analysis
+---------------------------------
+total displacement      10837.2 u
+average displacement        0.2 u
+max displacement           21.1 u
+original HPWL         1756160.2 u
+legalized HPWL        1790758.8 u
+delta HPWL                    2 %
+
+repair_timing -verbose -repair_tns 100
+[INFO RSZ-0033] No hold violations found.
+[WARNING DPL-0038] No 1-site fill cells detected.  To remove 1-site gaps use the -disallow_one_site_gaps flag.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL         1790758.8 u
+legalized HPWL        1790758.8 u
+delta HPWL                    0 %
+
+Report metrics stage 4, cts final...
+Warning: There are 20 input ports missing set_input_delay.
+Warning: There are 10 output ports missing set_output_delay.
+Warning: There are 23 unconstrained endpoints.
+
+==========================================================================
+cts final report_design_area
+--------------------------------------------------------------------------
+Design area 787049 u^2 54% utilization.
+Elapsed time: 0:38.91[h:]min:sec. CPU time: user 38.72 sys 0.18 (99%). Peak memory: 393212KB.

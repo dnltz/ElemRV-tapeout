@@ -1,0 +1,80 @@
+OpenROAD b98aca833f9827e7f20a8fa3c6defa56fa92e506 
+Features included (+) or not (-):  +Charts +GPU +GUI +MPL2 +PAR +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0008] extracting parasitics of ElemRVTop ...
+[INFO RCX-0435] Reading extraction model file /home/daniel/work/elements/ElemRV-init/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation ElemRVTop (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 227115 rc segments
+[INFO RCX-0439] Coupling Cap extraction ElemRVTop ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0043] 354204 wires to be extracted
+[INFO RCX-0442] 26% completion -- 95563 wires have been extracted
+[INFO RCX-0442] 50% completion -- 178777 wires have been extracted
+[INFO RCX-0442] 56% completion -- 198521 wires have been extracted
+[INFO RCX-0442] 77% completion -- 274697 wires have been extracted
+[INFO RCX-0442] 100% completion -- 354204 wires have been extracted
+[INFO RCX-0045] Extract 56439 nets, 276921 rsegs, 276921 caps, 421791 ccs
+[INFO RCX-0015] Finished extracting ElemRVTop.
+[INFO RCX-0016] Writing SPEF ...
+[INFO RCX-0443] 56435 nets finished
+[INFO RCX-0017] Finished writing SPEF ...
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VDD
+Corner           : default
+Supply voltage   : 1.20e+00 V
+Worstcase voltage: 1.20e+00 V
+Average voltage  : 1.20e+00 V
+Average IR drop  : 5.04e-05 V
+Worstcase IR drop: 1.00e-04 V
+Percentage drop  : 0.01 %
+######################################
+[INFO PSM-0040] All shapes on net VSS are connected.
+[INFO PSM-0073] Using bump pattern with x-pitch 140.0000um, y-pitch 140.0000um, and size 70.0000um with an reduction factor of 3x.
+########## IR report #################
+Net              : VSS
+Corner           : default
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 1.02e-04 V
+Average voltage  : 4.45e-05 V
+Average IR drop  : 4.45e-05 V
+Worstcase IR drop: 1.02e-04 V
+Percentage drop  : 0.01 %
+######################################
+Cell usage report:
+  Input pads: 7
+  Output pads: 8
+  Input/output pads: 15
+  Power pads: 16
+  Pad spacers: 1788
+  Covers: 46
+  Others: 94442
+  Buffer/inverters: 1098
+  Clock buffer/inverters: 764
+  Timing Repair Buffer/inverters: 4430
+  Sequential cells: 6904
+  Multi-Input combinational cells: 36283
+  Total: 145801
+Report metrics stage 6, finish...
+Warning: There are 20 input ports missing set_input_delay.
+Warning: There are 10 output ports missing set_output_delay.
+Warning: There are 23 unconstrained endpoints.
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 1448218 u^2 100% utilization.
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/final_routing.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/final_placement.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/final_ir_drop.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/final_clocks.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/final_resizer.webp.png
+[WARNING GUI-0076] QXcbConnection: XCB error: 13 (BadGC), sequence: 990, resource id: 0, major code: 130 (Unknown), minor code: 3
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/cts_clk_core.webp.png
+[WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/cts_clk_jtag.webp.png
+Elapsed time: 1:11.91[h:]min:sec. CPU time: user 71.21 sys 0.66 (99%). Peak memory: 1376580KB.

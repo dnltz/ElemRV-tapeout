@@ -1,0 +1,1499 @@
+
+==========================================================================
+cts post-repair check_setup
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+cts post-repair report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+cts post-repair report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+cts post-repair report_worst_slack
+--------------------------------------------------------------------------
+worst slack 28.21
+
+==========================================================================
+cts post-repair report_clock_skew
+--------------------------------------------------------------------------
+Clock clk_core
+   0.86 source latency soc.apb3Router_1.io_input_PADDR[10]$_DFFE_PN_/CLK ^
+  -0.94 target latency soc.peripherals_uartStdCtrl.mapper_tx_streamUnbuffered_queueWithOccupancy.logic_ram[7][4]$_DFFE_PP_/CLK ^
+   0.00 CRPR
+--------------
+  -0.07 setup skew
+
+Clock clk_jtag
+   0.47 source latency soc.jtagBridge_1.jtag_idcodeArea_ctrl_shift$_DFF_P_/CLK ^
+  -0.42 target latency soc.io_plat_jtag_tdo$_DFF_N_/CLK ^
+   0.00 CRPR
+--------------
+   0.05 setup skew
+
+
+==========================================================================
+cts post-repair report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[12]$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: soc.system_core_cpu.memory_to_writeBack_MEMORY_READ_DATA[12]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.02    0.20    0.00    0.00 ^ sg13g2_IOPadIn_1/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_1_p2c (net)
+                  0.20    0.00    0.00 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_4)
+     4    0.23    0.24    0.32    0.32 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_4)
+                                         clknet_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.24    0.00    0.32 ^ clkbuf_2_1_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+    16    0.38    0.20    0.27    0.60 ^ clkbuf_2_1_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_2_1_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.20    0.00    0.60 ^ clkbuf_6_24_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+     8    0.12    0.07    0.17    0.77 ^ clkbuf_6_24_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_6_24_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.07    0.00    0.77 ^ clkbuf_leaf_257_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+    11    0.03    0.03    0.09    0.86 ^ clkbuf_leaf_257_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_leaf_257_sg13g2_IOPadIn_1_p2c (net)
+                  0.03    0.00    0.86 ^ soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[12]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.02    0.19    1.06 v soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[12]$_DFF_P_/Q (sg13g2_dfrbp_1)
+                                         soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[12] (net)
+                  0.02    0.00    1.06 v soc.system_core_cpu.memory_to_writeBack_MEMORY_READ_DATA[12]$_DFF_P_/D (sg13g2_dfrbp_1)
+                                  1.06   data arrival time
+
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.02    0.20    0.00    0.00 ^ sg13g2_IOPadIn_1/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_1_p2c (net)
+                  0.20    0.00    0.00 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_4)
+     4    0.23    0.24    0.32    0.32 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_4)
+                                         clknet_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.24    0.00    0.32 ^ clkbuf_2_1_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+    16    0.38    0.20    0.27    0.60 ^ clkbuf_2_1_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_2_1_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.20    0.00    0.60 ^ clkbuf_6_26_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+    11    0.17    0.10    0.19    0.79 ^ clkbuf_6_26_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_6_26_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.10    0.00    0.79 ^ clkbuf_leaf_258_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+    11    0.03    0.03    0.10    0.90 ^ clkbuf_leaf_258_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_leaf_258_sg13g2_IOPadIn_1_p2c (net)
+                  0.03    0.00    0.90 ^ soc.system_core_cpu.memory_to_writeBack_MEMORY_READ_DATA[12]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+                          0.15    1.05   clock uncertainty
+                          0.00    1.05   clock reconvergence pessimism
+                         -0.02    1.03   library hold time
+                                  1.03   data required time
+-----------------------------------------------------------------------------
+                                  1.03   data required time
+                                 -1.06   data arrival time
+-----------------------------------------------------------------------------
+                                  0.03   slack (MET)
+
+
+Startpoint: soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_jtag)
+Endpoint: soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_
+          (rising edge-triggered flip-flop clocked by clk_jtag)
+Path Group: clk_jtag
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_jtag (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.02    0.20    0.00    0.00 ^ sg13g2_IOPadIn_5/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_5_p2c (net)
+                  0.20    0.00    0.00 ^ clkbuf_0_sg13g2_IOPadIn_5_p2c/A (sg13g2_buf_4)
+     8    0.17    0.18    0.28    0.28 ^ clkbuf_0_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+                                         clknet_0_sg13g2_IOPadIn_5_p2c (net)
+                  0.18    0.00    0.28 ^ clkbuf_3_2__f_sg13g2_IOPadIn_5_p2c/A (sg13g2_buf_4)
+    10    0.04    0.06    0.17    0.46 ^ clkbuf_3_2__f_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+                                         clknet_3_2__leaf_sg13g2_IOPadIn_5_p2c (net)
+                  0.06    0.00    0.46 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+     1    0.00    0.03    0.16    0.61 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/Q_N (sg13g2_dfrbp_1)
+                                         _000149_ (net)
+                  0.03    0.00    0.61 ^ _115835_/A1 (sg13g2_mux2_1)
+     1    0.00    0.02    0.06    0.67 ^ _115835_/X (sg13g2_mux2_1)
+                                         _037780_ (net)
+                  0.02    0.00    0.67 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/D (sg13g2_dfrbp_1)
+                                  0.67   data arrival time
+
+                          0.00    0.00   clock clk_jtag (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.02    0.20    0.00    0.00 ^ sg13g2_IOPadIn_5/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_5_p2c (net)
+                  0.20    0.00    0.00 ^ clkbuf_0_sg13g2_IOPadIn_5_p2c/A (sg13g2_buf_4)
+     8    0.17    0.18    0.28    0.28 ^ clkbuf_0_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+                                         clknet_0_sg13g2_IOPadIn_5_p2c (net)
+                  0.18    0.00    0.28 ^ clkbuf_3_2__f_sg13g2_IOPadIn_5_p2c/A (sg13g2_buf_4)
+    10    0.04    0.06    0.17    0.46 ^ clkbuf_3_2__f_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+                                         clknet_3_2__leaf_sg13g2_IOPadIn_5_p2c (net)
+                  0.06    0.00    0.46 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+                          0.15    0.61   clock uncertainty
+                          0.00    0.61   clock reconvergence pessimism
+                         -0.05    0.56   library hold time
+                                  0.56   data required time
+-----------------------------------------------------------------------------
+                                  0.56   data required time
+                                 -0.67   data arrival time
+-----------------------------------------------------------------------------
+                                  0.11   slack (MET)
+
+
+
+==========================================================================
+cts post-repair report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4[4]$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: io_hyperbus_dq_0_PAD (output port clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.02    0.20    0.00    0.00 ^ sg13g2_IOPadIn_1/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_1_p2c (net)
+                  0.20    0.00    0.00 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_4)
+     4    0.23    0.24    0.32    0.32 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_4)
+                                         clknet_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.24    0.00    0.32 ^ clkbuf_2_3_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+    16    0.40    0.21    0.28    0.61 ^ clkbuf_2_3_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_2_3_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.21    0.00    0.61 ^ clkbuf_6_55_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+    13    0.18    0.11    0.20    0.81 ^ clkbuf_6_55_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_6_55_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.11    0.00    0.81 ^ clkbuf_leaf_339_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+     8    0.03    0.03    0.10    0.92 ^ clkbuf_leaf_339_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_leaf_339_sg13g2_IOPadIn_1_p2c (net)
+                  0.03    0.00    0.92 ^ soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4[4]$_SDFF_PP0_/CLK (sg13g2_dfrbp_1)
+     8    0.03    0.12    0.27    1.19 ^ soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4[4]$_SDFF_PP0_/Q (sg13g2_dfrbp_1)
+                                         soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4[4] (net)
+                  0.12    0.00    1.19 ^ _087899_/A (sg13g2_inv_1)
+     6    0.02    0.07    0.10    1.29 v _087899_/Y (sg13g2_inv_1)
+                                         _013797_ (net)
+                  0.07    0.00    1.29 v _087901_/B (sg13g2_nor2_1)
+     2    0.01    0.08    0.09    1.38 ^ _087901_/Y (sg13g2_nor2_1)
+                                         _013799_ (net)
+                  0.08    0.00    1.38 ^ _087912_/B (sg13g2_nand2b_1)
+     1    0.00    0.04    0.07    1.44 v _087912_/Y (sg13g2_nand2b_1)
+                                         _013810_ (net)
+                  0.04    0.00    1.44 v _087915_/A2 (sg13g2_a22oi_1)
+     1    0.00    0.05    0.07    1.51 ^ _087915_/Y (sg13g2_a22oi_1)
+                                         _013813_ (net)
+                  0.05    0.00    1.51 ^ _087925_/A_N (sg13g2_nand2b_1)
+     2    0.01    0.04    0.08    1.59 ^ _087925_/Y (sg13g2_nand2b_1)
+                                         _013823_ (net)
+                  0.04    0.00    1.59 ^ _087939_/A (sg13g2_nand2_1)
+     1    0.00    0.03    0.05    1.64 v _087939_/Y (sg13g2_nand2_1)
+                                         _013837_ (net)
+                  0.03    0.00    1.64 v _087941_/A2 (sg13g2_a21oi_1)
+     3    0.01    0.10    0.11    1.74 ^ _087941_/Y (sg13g2_a21oi_1)
+                                         _013839_ (net)
+                  0.10    0.00    1.74 ^ _088041_/B1 (sg13g2_a21oi_1)
+     1    0.00    0.05    0.05    1.79 v _088041_/Y (sg13g2_a21oi_1)
+                                         _013938_ (net)
+                  0.05    0.00    1.79 v _088042_/A (sg13g2_nor2b_1)
+     1    0.00    0.05    0.06    1.85 ^ _088042_/Y (sg13g2_nor2b_1)
+                                         _013939_ (net)
+                  0.05    0.00    1.85 ^ _088044_/C1 (sg13g2_a221oi_1)
+     1    0.00    0.07    0.04    1.89 v _088044_/Y (sg13g2_a221oi_1)
+                                         _013941_ (net)
+                  0.07    0.00    1.89 v fanout438/A (sg13g2_buf_2)
+     7    0.02    0.05    0.11    2.00 v fanout438/X (sg13g2_buf_2)
+                                         net438 (net)
+                  0.05    0.00    2.00 v _088046_/B (sg13g2_nor2_1)
+     3    0.01    0.10    0.10    2.10 ^ _088046_/Y (sg13g2_nor2_1)
+                                         _013943_ (net)
+                  0.10    0.00    2.10 ^ _100659_/B (sg13g2_nand2b_1)
+     4    0.01    0.10    0.12    2.22 v _100659_/Y (sg13g2_nand2b_1)
+                                         _025285_ (net)
+                  0.10    0.00    2.22 v _153305_/A (sg13g2_inv_1)
+     1    0.00    0.04    0.05    2.27 ^ _153305_/Y (sg13g2_inv_1)
+                                         _072809_ (net)
+                  0.04    0.00    2.27 ^ _153306_/A2 (sg13g2_a21oi_1)
+     1    0.01    0.06    0.07    2.34 v _153306_/Y (sg13g2_a21oi_1)
+                                         _072810_ (net)
+                  0.06    0.00    2.34 v _153307_/B1 (sg13g2_a21oi_2)
+     8    0.02    0.13    0.13    2.46 ^ _153307_/Y (sg13g2_a21oi_2)
+                                         _072811_ (net)
+                  0.13    0.00    2.46 ^ _153311_/B (sg13g2_and2_2)
+     1    0.03    0.07    0.18    2.64 ^ _153311_/X (sg13g2_and2_2)
+                                         _072815_ (net)
+                  0.07    0.00    2.64 ^ sg13g2_IOPadInOut30mA_1/c2p (sg13g2_IOPadInOut30mA)
+     2    5.00    0.20    1.00    3.64 ^ sg13g2_IOPadInOut30mA_1/pad (sg13g2_IOPadInOut30mA)
+                                         io_hyperbus_dq_0_PAD (net)
+     0    5.00    0.20    0.00    3.64 ^ io_hyperbus_dq_0_PAD (inout)
+                                         io_hyperbus_dq_0_PAD (net)
+                                  3.64   data arrival time
+
+                         40.00   40.00   clock clk_core (rise edge)
+                          0.00   40.00   clock network delay (propagated)
+                         -0.15   39.85   clock uncertainty
+                          0.00   39.85   clock reconvergence pessimism
+                         -8.00   31.85   output external delay
+                                 31.85   data required time
+-----------------------------------------------------------------------------
+                                 31.85   data required time
+                                 -3.64   data arrival time
+-----------------------------------------------------------------------------
+                                 28.21   slack (MET)
+
+
+Startpoint: soc.io_plat_jtag_tdo$_DFF_N_
+            (rising edge-triggered flip-flop clocked by clk_jtag')
+Endpoint: io_jtag_tdo_PAD (output port clocked by clk_jtag)
+Path Group: clk_jtag
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                         50.00   50.00   clock clk_jtag' (rise edge)
+                          0.00   50.00   clock source latency
+     1    0.02    0.20    0.00   50.00 v sg13g2_IOPadIn_5/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_5_p2c (net)
+                  0.20    0.00   50.00 v clkbuf_0_sg13g2_IOPadIn_5_p2c/A (sg13g2_buf_4)
+     8    0.17    0.14    0.24   50.24 v clkbuf_0_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+                                         clknet_0_sg13g2_IOPadIn_5_p2c (net)
+                  0.14    0.00   50.24 v clkbuf_3_5__f_sg13g2_IOPadIn_5_p2c/A (sg13g2_buf_4)
+    14    0.04    0.05    0.14   50.39 v clkbuf_3_5__f_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+                                         clknet_3_5__leaf_sg13g2_IOPadIn_5_p2c (net)
+                  0.05    0.00   50.39 v _090172__1/A (sg13g2_inv_1)
+     1    0.00    0.03    0.03   50.42 ^ _090172__1/Y (sg13g2_inv_1)
+                                         net11309 (net)
+                  0.03    0.00   50.42 ^ soc.io_plat_jtag_tdo$_DFF_N_/CLK (sg13g2_dfrbp_1)
+     1    0.02    0.08    0.24   50.66 ^ soc.io_plat_jtag_tdo$_DFF_N_/Q (sg13g2_dfrbp_1)
+                                         soc.io_plat_jtag_tdo (net)
+                  0.08    0.00   50.66 ^ sg13g2_IOPadOut4mA_1/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    0.20    1.00   51.66 ^ sg13g2_IOPadOut4mA_1/pad (sg13g2_IOPadOut4mA)
+                                         io_jtag_tdo_PAD (net)
+     0    5.00    0.20    0.00   51.66 ^ io_jtag_tdo_PAD (inout)
+                                         io_jtag_tdo_PAD (net)
+                                 51.66   data arrival time
+
+                        100.00  100.00   clock clk_jtag (rise edge)
+                          0.00  100.00   clock network delay (propagated)
+                         -0.15   99.85   clock uncertainty
+                          0.00   99.85   clock reconvergence pessimism
+                         -8.00   91.85   output external delay
+                                 91.85   data required time
+-----------------------------------------------------------------------------
+                                 91.85   data required time
+                                -51.66   data arrival time
+-----------------------------------------------------------------------------
+                                 40.19   slack (MET)
+
+
+
+==========================================================================
+cts post-repair report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4[4]$_SDFF_PP0_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: io_hyperbus_dq_0_PAD (output port clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk_core (rise edge)
+                          0.00    0.00   clock source latency
+     1    0.02    0.20    0.00    0.00 ^ sg13g2_IOPadIn_1/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_1_p2c (net)
+                  0.20    0.00    0.00 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_4)
+     4    0.23    0.24    0.32    0.32 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_4)
+                                         clknet_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.24    0.00    0.32 ^ clkbuf_2_3_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+    16    0.40    0.21    0.28    0.61 ^ clkbuf_2_3_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_2_3_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.21    0.00    0.61 ^ clkbuf_6_55_0_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+    13    0.18    0.11    0.20    0.81 ^ clkbuf_6_55_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_6_55_0_sg13g2_IOPadIn_1_p2c (net)
+                  0.11    0.00    0.81 ^ clkbuf_leaf_339_sg13g2_IOPadIn_1_p2c/A (sg13g2_buf_8)
+     8    0.03    0.03    0.10    0.92 ^ clkbuf_leaf_339_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+                                         clknet_leaf_339_sg13g2_IOPadIn_1_p2c (net)
+                  0.03    0.00    0.92 ^ soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4[4]$_SDFF_PP0_/CLK (sg13g2_dfrbp_1)
+     8    0.03    0.12    0.27    1.19 ^ soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4[4]$_SDFF_PP0_/Q (sg13g2_dfrbp_1)
+                                         soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4[4] (net)
+                  0.12    0.00    1.19 ^ _087899_/A (sg13g2_inv_1)
+     6    0.02    0.07    0.10    1.29 v _087899_/Y (sg13g2_inv_1)
+                                         _013797_ (net)
+                  0.07    0.00    1.29 v _087901_/B (sg13g2_nor2_1)
+     2    0.01    0.08    0.09    1.38 ^ _087901_/Y (sg13g2_nor2_1)
+                                         _013799_ (net)
+                  0.08    0.00    1.38 ^ _087912_/B (sg13g2_nand2b_1)
+     1    0.00    0.04    0.07    1.44 v _087912_/Y (sg13g2_nand2b_1)
+                                         _013810_ (net)
+                  0.04    0.00    1.44 v _087915_/A2 (sg13g2_a22oi_1)
+     1    0.00    0.05    0.07    1.51 ^ _087915_/Y (sg13g2_a22oi_1)
+                                         _013813_ (net)
+                  0.05    0.00    1.51 ^ _087925_/A_N (sg13g2_nand2b_1)
+     2    0.01    0.04    0.08    1.59 ^ _087925_/Y (sg13g2_nand2b_1)
+                                         _013823_ (net)
+                  0.04    0.00    1.59 ^ _087939_/A (sg13g2_nand2_1)
+     1    0.00    0.03    0.05    1.64 v _087939_/Y (sg13g2_nand2_1)
+                                         _013837_ (net)
+                  0.03    0.00    1.64 v _087941_/A2 (sg13g2_a21oi_1)
+     3    0.01    0.10    0.11    1.74 ^ _087941_/Y (sg13g2_a21oi_1)
+                                         _013839_ (net)
+                  0.10    0.00    1.74 ^ _088041_/B1 (sg13g2_a21oi_1)
+     1    0.00    0.05    0.05    1.79 v _088041_/Y (sg13g2_a21oi_1)
+                                         _013938_ (net)
+                  0.05    0.00    1.79 v _088042_/A (sg13g2_nor2b_1)
+     1    0.00    0.05    0.06    1.85 ^ _088042_/Y (sg13g2_nor2b_1)
+                                         _013939_ (net)
+                  0.05    0.00    1.85 ^ _088044_/C1 (sg13g2_a221oi_1)
+     1    0.00    0.07    0.04    1.89 v _088044_/Y (sg13g2_a221oi_1)
+                                         _013941_ (net)
+                  0.07    0.00    1.89 v fanout438/A (sg13g2_buf_2)
+     7    0.02    0.05    0.11    2.00 v fanout438/X (sg13g2_buf_2)
+                                         net438 (net)
+                  0.05    0.00    2.00 v _088046_/B (sg13g2_nor2_1)
+     3    0.01    0.10    0.10    2.10 ^ _088046_/Y (sg13g2_nor2_1)
+                                         _013943_ (net)
+                  0.10    0.00    2.10 ^ _100659_/B (sg13g2_nand2b_1)
+     4    0.01    0.10    0.12    2.22 v _100659_/Y (sg13g2_nand2b_1)
+                                         _025285_ (net)
+                  0.10    0.00    2.22 v _153305_/A (sg13g2_inv_1)
+     1    0.00    0.04    0.05    2.27 ^ _153305_/Y (sg13g2_inv_1)
+                                         _072809_ (net)
+                  0.04    0.00    2.27 ^ _153306_/A2 (sg13g2_a21oi_1)
+     1    0.01    0.06    0.07    2.34 v _153306_/Y (sg13g2_a21oi_1)
+                                         _072810_ (net)
+                  0.06    0.00    2.34 v _153307_/B1 (sg13g2_a21oi_2)
+     8    0.02    0.13    0.13    2.46 ^ _153307_/Y (sg13g2_a21oi_2)
+                                         _072811_ (net)
+                  0.13    0.00    2.46 ^ _153311_/B (sg13g2_and2_2)
+     1    0.03    0.07    0.18    2.64 ^ _153311_/X (sg13g2_and2_2)
+                                         _072815_ (net)
+                  0.07    0.00    2.64 ^ sg13g2_IOPadInOut30mA_1/c2p (sg13g2_IOPadInOut30mA)
+     2    5.00    0.20    1.00    3.64 ^ sg13g2_IOPadInOut30mA_1/pad (sg13g2_IOPadInOut30mA)
+                                         io_hyperbus_dq_0_PAD (net)
+     0    5.00    0.20    0.00    3.64 ^ io_hyperbus_dq_0_PAD (inout)
+                                         io_hyperbus_dq_0_PAD (net)
+                                  3.64   data arrival time
+
+                         40.00   40.00   clock clk_core (rise edge)
+                          0.00   40.00   clock network delay (propagated)
+                         -0.15   39.85   clock uncertainty
+                          0.00   39.85   clock reconvergence pessimism
+                         -8.00   31.85   output external delay
+                                 31.85   data required time
+-----------------------------------------------------------------------------
+                                 31.85   data required time
+                                 -3.64   data arrival time
+-----------------------------------------------------------------------------
+                                 28.21   slack (MET)
+
+
+Startpoint: soc.io_plat_jtag_tdo$_DFF_N_
+            (rising edge-triggered flip-flop clocked by clk_jtag')
+Endpoint: io_jtag_tdo_PAD (output port clocked by clk_jtag)
+Path Group: clk_jtag
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                         50.00   50.00   clock clk_jtag' (rise edge)
+                          0.00   50.00   clock source latency
+     1    0.02    0.20    0.00   50.00 v sg13g2_IOPadIn_5/p2c (sg13g2_IOPadIn)
+                                         sg13g2_IOPadIn_5_p2c (net)
+                  0.20    0.00   50.00 v clkbuf_0_sg13g2_IOPadIn_5_p2c/A (sg13g2_buf_4)
+     8    0.17    0.14    0.24   50.24 v clkbuf_0_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+                                         clknet_0_sg13g2_IOPadIn_5_p2c (net)
+                  0.14    0.00   50.24 v clkbuf_3_5__f_sg13g2_IOPadIn_5_p2c/A (sg13g2_buf_4)
+    14    0.04    0.05    0.14   50.39 v clkbuf_3_5__f_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+                                         clknet_3_5__leaf_sg13g2_IOPadIn_5_p2c (net)
+                  0.05    0.00   50.39 v _090172__1/A (sg13g2_inv_1)
+     1    0.00    0.03    0.03   50.42 ^ _090172__1/Y (sg13g2_inv_1)
+                                         net11309 (net)
+                  0.03    0.00   50.42 ^ soc.io_plat_jtag_tdo$_DFF_N_/CLK (sg13g2_dfrbp_1)
+     1    0.02    0.08    0.24   50.66 ^ soc.io_plat_jtag_tdo$_DFF_N_/Q (sg13g2_dfrbp_1)
+                                         soc.io_plat_jtag_tdo (net)
+                  0.08    0.00   50.66 ^ sg13g2_IOPadOut4mA_1/c2p (sg13g2_IOPadOut4mA)
+     2    5.00    0.20    1.00   51.66 ^ sg13g2_IOPadOut4mA_1/pad (sg13g2_IOPadOut4mA)
+                                         io_jtag_tdo_PAD (net)
+     0    5.00    0.20    0.00   51.66 ^ io_jtag_tdo_PAD (inout)
+                                         io_jtag_tdo_PAD (net)
+                                 51.66   data arrival time
+
+                        100.00  100.00   clock clk_jtag (rise edge)
+                          0.00  100.00   clock network delay (propagated)
+                         -0.15   99.85   clock uncertainty
+                          0.00   99.85   clock reconvergence pessimism
+                         -8.00   91.85   output external delay
+                                 91.85   data required time
+-----------------------------------------------------------------------------
+                                 91.85   data required time
+                                -51.66   data arrival time
+-----------------------------------------------------------------------------
+                                 40.19   slack (MET)
+
+
+
+==========================================================================
+cts post-repair report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+fanout4385/X                              8     20    -12 (VIOLATED)
+fanout4386/X                              8     20    -12 (VIOLATED)
+fanout4387/X                              8     20    -12 (VIOLATED)
+fanout4388/X                              8     20    -12 (VIOLATED)
+fanout4389/X                              8     20    -12 (VIOLATED)
+fanout4390/X                              8     20    -12 (VIOLATED)
+fanout4392/X                              8     20    -12 (VIOLATED)
+fanout4393/X                              8     20    -12 (VIOLATED)
+clkbuf_2_0_0_sg13g2_IOPadIn_1_p2c/X       8     16     -8 (VIOLATED)
+clkbuf_2_1_0_sg13g2_IOPadIn_1_p2c/X       8     16     -8 (VIOLATED)
+clkbuf_2_2_0_sg13g2_IOPadIn_1_p2c/X       8     16     -8 (VIOLATED)
+clkbuf_2_3_0_sg13g2_IOPadIn_1_p2c/X       8     16     -8 (VIOLATED)
+clkbuf_3_7__f_sg13g2_IOPadIn_5_p2c/X      8     16     -8 (VIOLATED)
+clkbuf_3_5__f_sg13g2_IOPadIn_5_p2c/X      8     14     -6 (VIOLATED)
+clkbuf_3_6__f_sg13g2_IOPadIn_5_p2c/X      8     14     -6 (VIOLATED)
+clkbuf_6_32_0_sg13g2_IOPadIn_1_p2c/X      8     14     -6 (VIOLATED)
+clkbuf_6_51_0_sg13g2_IOPadIn_1_p2c/X      8     14     -6 (VIOLATED)
+clkbuf_6_54_0_sg13g2_IOPadIn_1_p2c/X      8     14     -6 (VIOLATED)
+clkbuf_6_57_0_sg13g2_IOPadIn_1_p2c/X      8     14     -6 (VIOLATED)
+clkbuf_6_59_0_sg13g2_IOPadIn_1_p2c/X      8     14     -6 (VIOLATED)
+clkbuf_6_9_0_sg13g2_IOPadIn_1_p2c/X       8     14     -6 (VIOLATED)
+clkbuf_3_3__f_sg13g2_IOPadIn_5_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_3_4__f_sg13g2_IOPadIn_5_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_6_27_0_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_6_52_0_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_6_53_0_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_6_55_0_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_6_62_0_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_6_8_0_sg13g2_IOPadIn_1_p2c/X       8     13     -5 (VIOLATED)
+clkbuf_leaf_101_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_leaf_259_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_leaf_380_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_leaf_381_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_leaf_395_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_leaf_507_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_leaf_525_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+clkbuf_leaf_99_sg13g2_IOPadIn_1_p2c/X      8     13     -5 (VIOLATED)
+fanout4391/X                              8     13     -5 (VIOLATED)
+clkbuf_6_10_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_14_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_15_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_28_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_29_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_2_0_sg13g2_IOPadIn_1_p2c/X       8     12     -4 (VIOLATED)
+clkbuf_6_30_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_31_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_34_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_42_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_49_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_5_0_sg13g2_IOPadIn_1_p2c/X       8     12     -4 (VIOLATED)
+clkbuf_6_60_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_61_0_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_7_0_sg13g2_IOPadIn_1_p2c/X       8     12     -4 (VIOLATED)
+clkbuf_leaf_111_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_139_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_153_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_165_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_168_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_177_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_183_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_192_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_195_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_197_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_215_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_225_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_228_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_230_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_234_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_243_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_253_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_254_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_260_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_291_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_292_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_31_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_323_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_350_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_353_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_358_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_398_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_409_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_414_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_421_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_424_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_434_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_473_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_476_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_505_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_517_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_524_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_531_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_543_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_544_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_562_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_565_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_566_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_571_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_575_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_584_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_652_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_664_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_leaf_76_sg13g2_IOPadIn_1_p2c/X      8     12     -4 (VIOLATED)
+clkbuf_6_19_0_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_6_26_0_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_6_4_0_sg13g2_IOPadIn_1_p2c/X       8     11     -3 (VIOLATED)
+clkbuf_6_50_0_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_6_56_0_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_6_63_0_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_100_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_102_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_104_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_106_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_116_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_11_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_120_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_121_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_132_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_137_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_13_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_141_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_142_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_147_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_15_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_160_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_162_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_164_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_16_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_170_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_171_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_173_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_179_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_189_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_18_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_199_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_209_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_211_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_212_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_213_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_214_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_220_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_221_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_226_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_235_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_238_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_240_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_241_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_242_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_245_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_246_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_248_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_24_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_250_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_251_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_252_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_255_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_256_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_257_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_258_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_261_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_262_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_263_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_264_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_266_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_279_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_289_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_28_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_293_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_294_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_299_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_300_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_301_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_302_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_306_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_308_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_315_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_316_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_321_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_326_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_32_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_331_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_332_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_33_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_341_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_345_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_351_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_352_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_355_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_356_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_360_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_369_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_36_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_373_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_375_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_376_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_382_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_387_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_388_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_38_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_394_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_404_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_405_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_406_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_40_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_410_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_411_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_413_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_415_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_418_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_423_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_425_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_427_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_428_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_437_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_440_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_441_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_446_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_448_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_460_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_471_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_475_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_480_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_489_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_491_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_497_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_500_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_501_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_502_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_506_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_509_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_512_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_518_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_519_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_520_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_521_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_523_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_52_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_530_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_532_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_538_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_540_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_541_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_542_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_546_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_547_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_548_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_552_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_553_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_554_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_560_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_563_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_569_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_573_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_574_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_578_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_579_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_580_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_587_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_589_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_603_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_607_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_608_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_610_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_615_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_617_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_618_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_622_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_638_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_639_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_642_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_644_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_646_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_648_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_650_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_66_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_670_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_673_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_677_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_7_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_8_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+clkbuf_leaf_98_sg13g2_IOPadIn_1_p2c/X      8     11     -3 (VIOLATED)
+fanout4396/X                              8     11     -3 (VIOLATED)
+clkbuf_3_2__f_sg13g2_IOPadIn_5_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_0_0_sg13g2_IOPadIn_1_p2c/X       8     10     -2 (VIOLATED)
+clkbuf_6_11_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_12_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_17_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_18_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_1_0_sg13g2_IOPadIn_1_p2c/X       8     10     -2 (VIOLATED)
+clkbuf_6_25_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_33_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_3_0_sg13g2_IOPadIn_1_p2c/X       8     10     -2 (VIOLATED)
+clkbuf_6_40_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_41_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_43_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_48_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_58_0_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_6_6_0_sg13g2_IOPadIn_1_p2c/X       8     10     -2 (VIOLATED)
+clkbuf_leaf_105_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_107_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_10_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_115_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_117_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_119_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_122_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_123_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_124_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_12_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_131_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_133_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_135_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_136_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_138_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_140_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_144_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_145_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_14_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_150_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_151_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_152_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_155_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_158_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_161_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_166_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_172_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_17_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_180_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_182_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_184_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_185_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_186_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_188_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_190_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_191_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_194_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_198_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_201_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_203_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_205_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_207_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_208_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_20_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_210_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_216_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_217_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_219_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_222_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_223_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_227_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_232_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_233_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_236_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_237_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_239_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_244_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_247_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_249_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_268_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_269_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_270_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_275_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_281_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_283_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_284_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_286_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_287_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_295_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_296_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_297_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_29_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_304_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_310_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_311_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_312_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_314_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_317_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_320_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_322_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_328_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_330_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_333_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_334_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_335_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_336_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_337_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_338_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_342_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_343_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_344_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_346_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_349_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_34_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_359_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_361_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_362_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_363_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_365_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_366_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_367_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_368_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_370_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_371_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_372_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_374_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_379_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_37_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_383_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_384_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_386_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_389_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_390_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_391_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_392_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_396_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_397_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_399_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_3_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_400_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_401_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_402_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_403_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_407_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_408_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_412_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_416_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_417_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_420_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_422_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_430_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_431_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_432_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_433_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_435_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_436_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_438_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_439_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_43_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_442_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_444_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_445_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_451_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_453_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_45_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_465_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_477_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_478_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_479_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_481_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_482_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_484_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_485_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_486_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_487_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_488_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_490_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_492_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_493_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_495_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_496_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_498_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_49_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_503_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_504_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_510_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_511_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_513_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_514_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_515_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_51_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_522_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_527_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_533_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_536_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_537_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_539_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_545_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_549_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_54_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_550_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_555_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_557_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_55_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_561_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_564_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_568_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_56_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_570_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_576_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_577_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_57_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_581_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_585_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_588_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_592_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_5_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_600_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_602_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_604_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_606_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_613_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_614_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_619_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_620_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_623_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_624_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_625_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_628_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_629_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_635_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_636_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_637_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_63_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_641_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_643_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_645_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_649_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_653_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_654_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_655_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_656_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_657_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_658_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_659_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_65_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_660_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_661_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_662_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_663_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_667_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_668_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_674_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_675_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_678_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_679_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_680_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_682_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_69_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_6_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_70_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_78_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_80_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_83_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_85_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_90_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_91_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+clkbuf_leaf_9_sg13g2_IOPadIn_1_p2c/X      8     10     -2 (VIOLATED)
+fanout4394/X                              8     10     -2 (VIOLATED)
+fanout4395/X                              8     10     -2 (VIOLATED)
+clkbuf_3_0__f_sg13g2_IOPadIn_5_p2c/X      8      9        (VIOLATED)
+clkbuf_6_13_0_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_6_16_0_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_6_20_0_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_6_21_0_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_6_23_0_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_6_39_0_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_6_47_0_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_108_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_110_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_112_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_113_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_118_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_125_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_126_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_127_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_128_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_129_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_130_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_134_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_143_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_148_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_149_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_154_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_157_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_159_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_167_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_176_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_178_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_187_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_193_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_19_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_1_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_200_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_202_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_204_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_218_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_21_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_224_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_229_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_22_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_23_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_25_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_265_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_267_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_274_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_276_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_277_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_27_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_280_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_285_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_290_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_298_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_303_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_305_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_30_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_313_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_318_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_319_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_324_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_325_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_327_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_329_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_340_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_354_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_357_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_377_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_385_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_393_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_39_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_419_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_41_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_426_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_429_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_42_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_447_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_449_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_44_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_450_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_462_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_467_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_46_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_47_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_48_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_494_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_499_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_4_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_508_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_50_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_516_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_526_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_528_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_529_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_534_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_53_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_551_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_556_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_558_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_559_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_567_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_572_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_582_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_583_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_586_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_58_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_590_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_596_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_598_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_599_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_601_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_605_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_609_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_60_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_621_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_626_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_627_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_62_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_630_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_631_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_634_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_640_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_647_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_64_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_651_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_665_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_666_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_669_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_671_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_672_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_676_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_67_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_681_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_683_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_684_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_72_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_73_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_74_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_75_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_77_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_79_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_86_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_87_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_89_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_94_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+clkbuf_leaf_97_sg13g2_IOPadIn_1_p2c/X      8      9        (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+io_gpioStatus_0_PAD                     0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_dq_0_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_dq_1_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_dq_2_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_dq_3_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_dq_4_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_dq_5_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_dq_6_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_dq_7_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_rwds_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_spiFlash_dq_0_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_spiFlash_dq_1_PAD                    0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut30mA_1/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut30mA_2/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut30mA_3/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut30mA_4/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut30mA_5/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut30mA_6/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut30mA_7/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut30mA_8/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut30mA_9/pad             0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut4mA_1/pad              0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut4mA_2/pad              0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut4mA_3/pad              0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadInOut4mA_5/pad              0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_ck_PAD                      0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_cs_0_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_hyperbus_reset_PAD                   0.50    5.00   -4.50 (VIOLATED)
+io_jtag_tdo_PAD                         0.50    5.00   -4.50 (VIOLATED)
+io_spiFlash_cs_0_PAD                    0.50    5.00   -4.50 (VIOLATED)
+io_spiFlash_sck_PAD                     0.50    5.00   -4.50 (VIOLATED)
+io_uartStd_rts_PAD                      0.50    5.00   -4.50 (VIOLATED)
+io_uartStd_txd_PAD                      0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadOut30mA_1/pad               0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadOut4mA_1/pad                0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadOut4mA_2/pad                0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadOut4mA_3/pad                0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadOut4mA_4/pad                0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadOut4mA_5/pad                0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadOut4mA_6/pad                0.50    5.00   -4.50 (VIOLATED)
+sg13g2_IOPadOut4mA_7/pad                0.50    5.00   -4.50 (VIOLATED)
+
+
+==========================================================================
+cts post-repair max_slew_check_slack
+--------------------------------------------------------------------------
+0.0
+
+==========================================================================
+cts post-repair max_slew_check_limit
+--------------------------------------------------------------------------
+0.20000000298023224
+
+==========================================================================
+cts post-repair max_slew_check_slack_limit
+--------------------------------------------------------------------------
+0.0000
+
+==========================================================================
+cts post-repair max_fanout_check_slack
+--------------------------------------------------------------------------
+-12.0
+
+==========================================================================
+cts post-repair max_fanout_check_limit
+--------------------------------------------------------------------------
+8.0
+
+==========================================================================
+cts post-repair max_fanout_check_slack_limit
+--------------------------------------------------------------------------
+-1.5000
+
+==========================================================================
+cts post-repair max_capacitance_check_slack
+--------------------------------------------------------------------------
+-4.50100040435791
+
+==========================================================================
+cts post-repair max_capacitance_check_limit
+--------------------------------------------------------------------------
+0.5
+
+==========================================================================
+cts post-repair max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-9.0020
+
+==========================================================================
+cts post-repair max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 0
+
+==========================================================================
+cts post-repair max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 692
+
+==========================================================================
+cts post-repair max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 41
+
+==========================================================================
+cts post-repair setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+cts post-repair hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+cts post-repair report_checks -path_delay max reg to reg
+--------------------------------------------------------------------------
+Startpoint: soc.system_core_cpu.CsrPlugin_mcycle[0]$_SDFF_PN0_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: soc.system_core_cpu.CsrPlugin_mcycle[63]$_SDFF_PN0_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPadIn_1/p2c (sg13g2_IOPadIn)
+   0.32    0.32 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_4)
+   0.28    0.60 ^ clkbuf_2_1_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.19    0.79 ^ clkbuf_6_17_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.10    0.89 ^ clkbuf_leaf_136_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.00    0.89 ^ soc.system_core_cpu.CsrPlugin_mcycle[0]$_SDFF_PN0_/CLK (sg13g2_dfrbp_1)
+   0.25    1.14 ^ soc.system_core_cpu.CsrPlugin_mcycle[0]$_SDFF_PN0_/Q (sg13g2_dfrbp_1)
+   0.15    1.29 v _152211_/Y (sg13g2_nand4_1)
+   0.16    1.45 ^ _152219_/Y (sg13g2_nor2_1)
+   0.21    1.65 v _152244_/Y (sg13g2_nand4_1)
+   0.19    1.85 ^ _152261_/Y (sg13g2_nor3_1)
+   0.21    2.06 ^ _152277_/X (sg13g2_and3_1)
+   0.18    2.24 v _152302_/Y (sg13g2_nand4_1)
+   0.19    2.42 v _152320_/X (sg13g2_or3_1)
+   0.13    2.55 ^ _152329_/Y (sg13g2_nor2_1)
+   0.23    2.78 ^ _152356_/X (sg13g2_and4_1)
+   0.21    2.99 ^ _152382_/X (sg13g2_and4_1)
+   0.20    3.19 ^ _152406_/X (sg13g2_and4_1)
+   0.12    3.31 v _152423_/Y (sg13g2_nand3_1)
+   0.14    3.46 ^ _152432_/Y (sg13g2_nor2_1)
+   0.24    3.70 ^ _152462_/X (sg13g2_and4_2)
+   0.20    3.90 ^ _152485_/X (sg13g2_and4_1)
+   0.18    4.08 ^ _152497_/X (sg13g2_and3_1)
+   0.16    4.24 v _152532_/Y (sg13g2_nand4_1)
+   0.11    4.35 ^ _152538_/Y (sg13g2_nor2_1)
+   0.15    4.50 ^ _152547_/X (sg13g2_and2_1)
+   0.12    4.62 v _152561_/Y (sg13g2_nand3_1)
+   0.15    4.77 ^ _152579_/Y (sg13g2_nor2_1)
+   0.22    4.99 ^ _152601_/X (sg13g2_and4_1)
+   0.17    5.16 ^ _152615_/X (sg13g2_and3_1)
+   0.19    5.35 v _152638_/Y (sg13g2_nand4_1)
+   0.16    5.51 ^ _152653_/Y (sg13g2_nor3_1)
+   0.17    5.68 ^ _152661_/X (sg13g2_and2_1)
+   0.14    5.82 v _152691_/Y (sg13g2_nand4_1)
+   0.12    5.94 v _152693_/X (sg13g2_xor2_1)
+   0.07    6.00 ^ _152695_/Y (sg13g2_a22oi_1)
+   0.00    6.00 ^ soc.system_core_cpu.CsrPlugin_mcycle[63]$_SDFF_PN0_/D (sg13g2_dfrbp_1)
+           6.00   data arrival time
+
+  40.00   40.00   clock clk_core (rise edge)
+   0.00   40.00   clock source latency
+   0.00   40.00 ^ sg13g2_IOPadIn_1/p2c (sg13g2_IOPadIn)
+   0.32   40.32 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_4)
+   0.28   40.60 ^ clkbuf_2_0_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.20   40.80 ^ clkbuf_6_5_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.11   40.91 ^ clkbuf_leaf_50_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.00   40.91 ^ soc.system_core_cpu.CsrPlugin_mcycle[63]$_SDFF_PN0_/CLK (sg13g2_dfrbp_1)
+  -0.15   40.76   clock uncertainty
+   0.00   40.76   clock reconvergence pessimism
+  -0.13   40.63   library setup time
+          40.63   data required time
+---------------------------------------------------------
+          40.63   data required time
+          -6.00   data arrival time
+---------------------------------------------------------
+          34.63   slack (MET)
+
+
+Startpoint: soc.jtagBridge_1._zz_jtag_tap_isBypass[1]$_SDFFE_PP0P_
+            (rising edge-triggered flip-flop clocked by clk_jtag)
+Endpoint: soc.io_plat_jtag_tdo$_DFF_N_
+          (rising edge-triggered flip-flop clocked by clk_jtag')
+Path Group: clk_jtag
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_jtag (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPadIn_5/p2c (sg13g2_IOPadIn)
+   0.28    0.28 ^ clkbuf_0_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+   0.19    0.47 ^ clkbuf_3_7__f_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+   0.00    0.47 ^ soc.jtagBridge_1._zz_jtag_tap_isBypass[1]$_SDFFE_PP0P_/CLK (sg13g2_dfrbp_1)
+   0.28    0.74 ^ soc.jtagBridge_1._zz_jtag_tap_isBypass[1]$_SDFFE_PP0P_/Q (sg13g2_dfrbp_1)
+   0.18    0.92 v _153593_/X (sg13g2_mux2_1)
+   0.05    0.97 ^ _153595_/Y (sg13g2_nand4_1)
+   0.09    1.06 v _153597_/Y (sg13g2_nand3_1)
+   0.00    1.06 v soc.io_plat_jtag_tdo$_DFF_N_/D (sg13g2_dfrbp_1)
+           1.06   data arrival time
+
+  50.00   50.00   clock clk_jtag' (rise edge)
+   0.00   50.00   clock source latency
+   0.00   50.00 v sg13g2_IOPadIn_5/p2c (sg13g2_IOPadIn)
+   0.24   50.24 v clkbuf_0_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+   0.14   50.39 v clkbuf_3_5__f_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+   0.03   50.42 ^ _090172__1/Y (sg13g2_inv_1)
+   0.00   50.42 ^ soc.io_plat_jtag_tdo$_DFF_N_/CLK (sg13g2_dfrbp_1)
+  -0.15   50.27   clock uncertainty
+   0.00   50.27   clock reconvergence pessimism
+  -0.14   50.13   library setup time
+          50.13   data required time
+---------------------------------------------------------
+          50.13   data required time
+          -1.06   data arrival time
+---------------------------------------------------------
+          49.07   slack (MET)
+
+
+
+==========================================================================
+cts post-repair report_checks -path_delay min reg to reg
+--------------------------------------------------------------------------
+Startpoint: soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[12]$_DFF_P_
+            (rising edge-triggered flip-flop clocked by clk_core)
+Endpoint: soc.system_core_cpu.memory_to_writeBack_MEMORY_READ_DATA[12]$_DFF_P_
+          (rising edge-triggered flip-flop clocked by clk_core)
+Path Group: clk_core
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPadIn_1/p2c (sg13g2_IOPadIn)
+   0.32    0.32 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_4)
+   0.28    0.60 ^ clkbuf_2_1_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.17    0.77 ^ clkbuf_6_24_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.09    0.86 ^ clkbuf_leaf_257_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.00    0.86 ^ soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[12]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+   0.19    1.06 v soc.soc_axi4SharedDecoder_1_io_input_r_rData_data[12]$_DFF_P_/Q (sg13g2_dfrbp_1)
+   0.00    1.06 v soc.system_core_cpu.memory_to_writeBack_MEMORY_READ_DATA[12]$_DFF_P_/D (sg13g2_dfrbp_1)
+           1.06   data arrival time
+
+   0.00    0.00   clock clk_core (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPadIn_1/p2c (sg13g2_IOPadIn)
+   0.32    0.32 ^ clkbuf_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_4)
+   0.28    0.60 ^ clkbuf_2_1_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.19    0.79 ^ clkbuf_6_26_0_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.11    0.90 ^ clkbuf_leaf_258_sg13g2_IOPadIn_1_p2c/X (sg13g2_buf_8)
+   0.00    0.90 ^ soc.system_core_cpu.memory_to_writeBack_MEMORY_READ_DATA[12]$_DFF_P_/CLK (sg13g2_dfrbp_1)
+   0.15    1.05   clock uncertainty
+   0.00    1.05   clock reconvergence pessimism
+  -0.02    1.03   library hold time
+           1.03   data required time
+---------------------------------------------------------
+           1.03   data required time
+          -1.06   data arrival time
+---------------------------------------------------------
+           0.03   slack (MET)
+
+
+Startpoint: soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_
+            (rising edge-triggered flip-flop clocked by clk_jtag)
+Endpoint: soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_
+          (rising edge-triggered flip-flop clocked by clk_jtag)
+Path Group: clk_jtag
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_jtag (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPadIn_5/p2c (sg13g2_IOPadIn)
+   0.28    0.28 ^ clkbuf_0_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+   0.17    0.46 ^ clkbuf_3_2__f_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+   0.00    0.46 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+   0.16    0.61 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/Q_N (sg13g2_dfrbp_1)
+   0.06    0.67 ^ _115835_/X (sg13g2_mux2_1)
+   0.00    0.67 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/D (sg13g2_dfrbp_1)
+           0.67   data arrival time
+
+   0.00    0.00   clock clk_jtag (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ sg13g2_IOPadIn_5/p2c (sg13g2_IOPadIn)
+   0.28    0.28 ^ clkbuf_0_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+   0.17    0.46 ^ clkbuf_3_2__f_sg13g2_IOPadIn_5_p2c/X (sg13g2_buf_4)
+   0.00    0.46 ^ soc.jtagBridge_1.flowCCByToggle_1.inputArea_target$_DFFE_PP_/CLK (sg13g2_dfrbp_1)
+   0.15    0.61   clock uncertainty
+   0.00    0.61   clock reconvergence pessimism
+  -0.05    0.56   library hold time
+           0.56   data required time
+---------------------------------------------------------
+           0.56   data required time
+          -0.67   data arrival time
+---------------------------------------------------------
+           0.11   slack (MET)
+
+
+
+==========================================================================
+cts post-repair critical path target clock latency max path
+--------------------------------------------------------------------------
+0.8796
+
+==========================================================================
+cts post-repair critical path target clock latency min path
+--------------------------------------------------------------------------
+0.8981
+
+==========================================================================
+cts post-repair critical path source clock latency min path
+--------------------------------------------------------------------------
+0.0000
+
+==========================================================================
+cts post-repair critical path delay
+--------------------------------------------------------------------------
+3.6381
+
+==========================================================================
+cts post-repair critical path slack
+--------------------------------------------------------------------------
+28.2119
+
+==========================================================================
+cts post-repair slack div critical path delay
+--------------------------------------------------------------------------
+775.456969
+
+==========================================================================
+cts post-repair report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             3.28e-03   2.94e-04   3.23e-06   3.58e-03  36.1%
+Combinational          3.44e-03   2.37e-03   5.51e-06   5.82e-03  58.7%
+Clock                  6.79e-05   6.01e-05   5.25e-07   1.28e-04   1.3%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   3.79e-04   0.00e+00   3.79e-04   3.8%
+----------------------------------------------------------------
+Total                  6.79e-03   3.10e-03   9.26e-06   9.90e-03 100.0%
+                          68.6%      31.3%       0.1%

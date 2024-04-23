@@ -1,0 +1,37 @@
+OpenROAD b98aca833f9827e7f20a8fa3c6defa56fa92e506 
+Features included (+) or not (-):  +Charts +GPU +GUI +MPL2 +PAR +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Report metrics stage 3, resizer pre...
+Warning: There are 20 input ports missing set_input_delay.
+Warning: There are 10 output ports missing set_output_delay.
+Warning: There are 23 unconstrained endpoints.
+
+==========================================================================
+resizer pre report_design_area
+--------------------------------------------------------------------------
+Design area 678769 u^2 47% utilization.
+Perform port buffering...
+Perform buffer insertion...
+[INFO RSZ-0058] Using max wire length 15963um.
+[INFO RSZ-0034] Found 1 slew violations.
+[INFO RSZ-0035] Found 901 fanout violations.
+[INFO RSZ-0038] Inserted 4396 buffers in 902 nets.
+[INFO RSZ-0039] Resized 4760 instances.
+Repair tie lo fanout...
+[INFO RSZ-0042] Inserted 4 tie sg13g2_tielo instances.
+Repair tie hi fanout...
+[INFO RSZ-0042] Inserted 6908 tie sg13g2_tiehi instances.
+Floating nets: 
+Report metrics stage 3, resizer...
+Warning: There are 20 input ports missing set_input_delay.
+Warning: There are 10 output ports missing set_output_delay.
+Warning: There are 23 unconstrained endpoints.
+
+==========================================================================
+resizer report_design_area
+--------------------------------------------------------------------------
+Design area 769142 u^2 53% utilization.
+Instance count before 39256, after 50562
+Pin count before 146517, after 162219
+Elapsed time: 0:18.99[h:]min:sec. CPU time: user 18.84 sys 0.14 (99%). Peak memory: 324136KB.

@@ -1,0 +1,6 @@
+  violation type: Short
+    srcs: net:net3781 net:soc.jtagBridge_1._zz_jtag_tap_isBypass\[0\] 
+    bbox = ( 902.495, 553.46 ) - ( 902.5, 553.66 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_068001_ net:soc.jtagBridge_1._zz_jtag_tap_isBypass\[1\] 
+    bbox = ( 900.38, 549.68 ) - ( 900.58, 549.88 ) on Layer Metal2

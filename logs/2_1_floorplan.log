@@ -1,0 +1,87 @@
+OpenROAD b98aca833f9827e7f20a8fa3c6defa56fa92e506 
+Features included (+) or not (-):  +Charts +GPU +GUI +MPL2 +PAR +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: /home/daniel/work/elements/ElemRV-init/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_tech.lef, created 19 layers, 300 vias
+[INFO ODB-0227] LEF file: /home/daniel/work/elements/ElemRV-init/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_stdcell.lef, created 78 library cells
+[INFO ODB-0227] LEF file: /home/daniel/work/elements/ElemRV-init/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_io/lef/sg13g2_io.lef, created 22 library cells
+[WARNING ODB-0186] macro bondpad_70x70 references unknown site IOLibSite
+[INFO ODB-0227] LEF file: /home/daniel/work/elements/ElemRV-init/pdks/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_io/lef/bondpad_70x70.lef, created 1 library cells
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+Warning: There are 20 input ports missing set_input_delay.
+Warning: There are 10 output ports missing set_output_delay.
+Warning: There are 23 unconstrained endpoints.
+number instances in verilog is 80950
+[INFO IFP-0001] Added 318 rows of 2510 site CoreSite.
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_0_PAD on TopMetal2 at (493.000um, 1797.000um) - (563.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_1_PAD on TopMetal2 at (609.000um, 1797.000um) - (679.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_2_PAD on TopMetal2 at (725.000um, 1797.000um) - (795.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_3_PAD on TopMetal2 at (841.000um, 1797.000um) - (911.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_4_PAD on TopMetal2 at (957.000um, 1797.000um) - (1027.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_5_PAD on TopMetal2 at (1073.000um, 1797.000um) - (1143.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_6_PAD on TopMetal2 at (1189.000um, 1797.000um) - (1259.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_dq_7_PAD on TopMetal2 at (1304.000um, 1797.000um) - (1374.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_rwds_PAD on TopMetal2 at (1795.000um, 1303.000um) - (1865.000um, 1373.000um)
+[INFO PAD-0116] Creating terminal for io_gpioStatus_0_PAD on TopMetal2 at (1795.000um, 724.000um) - (1865.000um, 794.000um)
+[INFO PAD-0116] Creating terminal for io_gpioStatus_1_PAD on TopMetal2 at (0.000um, 1187.000um) - (70.000um, 1257.000um)
+[INFO PAD-0116] Creating terminal for io_gpioStatus_2_PAD on TopMetal2 at (0.000um, 1303.000um) - (70.000um, 1373.000um)
+[INFO PAD-0116] Creating terminal for io_gpioStatus_3_PAD on TopMetal2 at (0.000um, 1419.000um) - (70.000um, 1489.000um)
+[INFO PAD-0116] Creating terminal for io_spiFlash_dq_0_PAD on TopMetal2 at (0.000um, 956.000um) - (70.000um, 1026.000um)
+[INFO PAD-0116] Creating terminal for io_spiFlash_dq_1_PAD on TopMetal2 at (0.000um, 1071.000um) - (70.000um, 1141.000um)
+[INFO PAD-0116] Creating terminal for io_clock_PAD on TopMetal2 at (1795.000um, 840.000um) - (1865.000um, 910.000um)
+[INFO PAD-0116] Creating terminal for io_reset_PAD on TopMetal2 at (1795.000um, 956.000um) - (1865.000um, 1026.000um)
+[INFO PAD-0116] Creating terminal for io_jtag_tms_PAD on TopMetal2 at (725.000um, 0.000um) - (795.000um, 70.000um)
+[INFO PAD-0116] Creating terminal for io_jtag_tdi_PAD on TopMetal2 at (841.000um, 0.000um) - (911.000um, 70.000um)
+[INFO PAD-0116] Creating terminal for io_jtag_tck_PAD on TopMetal2 at (1073.000um, 0.000um) - (1143.000um, 70.000um)
+[INFO PAD-0116] Creating terminal for io_uartStd_rxd_PAD on TopMetal2 at (1189.000um, 0.000um) - (1259.000um, 70.000um)
+[INFO PAD-0116] Creating terminal for io_uartStd_cts_PAD on TopMetal2 at (1304.000um, 0.000um) - (1374.000um, 70.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_ck_PAD on TopMetal2 at (1795.000um, 1419.000um) - (1865.000um, 1489.000um)
+[INFO PAD-0116] Creating terminal for io_jtag_tdo_PAD on TopMetal2 at (957.000um, 0.000um) - (1027.000um, 70.000um)
+[INFO PAD-0116] Creating terminal for io_uartStd_txd_PAD on TopMetal2 at (1420.000um, 0.000um) - (1490.000um, 70.000um)
+[INFO PAD-0116] Creating terminal for io_uartStd_rts_PAD on TopMetal2 at (1536.000um, 0.000um) - (1606.000um, 70.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_cs_0_PAD on TopMetal2 at (1795.000um, 1187.000um) - (1865.000um, 1257.000um)
+[INFO PAD-0116] Creating terminal for io_hyperbus_reset_PAD on TopMetal2 at (1795.000um, 1071.000um) - (1865.000um, 1141.000um)
+[INFO PAD-0116] Creating terminal for io_spiFlash_cs_0_PAD on TopMetal2 at (0.000um, 724.000um) - (70.000um, 794.000um)
+[INFO PAD-0116] Creating terminal for io_spiFlash_sck_PAD on TopMetal2 at (0.000um, 840.000um) - (70.000um, 910.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.iovdd_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (261.000um, 0.000um) - (331.000um, 70.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.iovss_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (377.000um, 0.000um) - (447.000um, 70.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.vss_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vss_RING on TopMetal2 at (493.000um, 0.000um) - (563.000um, 70.000um)
+[WARNING PAD-0033] Could not find a block terminal associated with net: "IO_CORNER_NORTH_WEST_INST.vdd_RING", creating now.
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vdd_RING on TopMetal2 at (609.000um, 0.000um) - (679.000um, 70.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (1795.000um, 261.000um) - (1865.000um, 331.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (1795.000um, 377.000um) - (1865.000um, 447.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vss_RING on TopMetal2 at (1795.000um, 492.000um) - (1865.000um, 562.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vdd_RING on TopMetal2 at (1795.000um, 608.000um) - (1865.000um, 678.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (261.000um, 1797.000um) - (331.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (377.000um, 1797.000um) - (447.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (1420.000um, 1797.000um) - (1490.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (1536.000um, 1797.000um) - (1606.000um, 1867.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovdd_RING on TopMetal2 at (0.000um, 261.000um) - (70.000um, 331.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.iovss_RING on TopMetal2 at (0.000um, 377.000um) - (70.000um, 447.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vss_RING on TopMetal2 at (0.000um, 492.000um) - (70.000um, 562.000um)
+[INFO PAD-0116] Creating terminal for IO_CORNER_NORTH_WEST_INST.vdd_RING on TopMetal2 at (0.000um, 608.000um) - (70.000um, 678.000um)
+[INFO RSZ-0026] Removed 43544 buffers.
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1uA
+ power 1pW
+ distance 1um
+Report metrics stage 2, floorplan final...
+Warning: There are 20 input ports missing set_input_delay.
+Warning: There are 10 output ports missing set_output_delay.
+Warning: There are 23 unconstrained endpoints.
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 678769 u^2 47% utilization.
+Elapsed time: 0:10.16[h:]min:sec. CPU time: user 10.06 sys 0.10 (99%). Peak memory: 329624KB.

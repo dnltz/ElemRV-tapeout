@@ -1,0 +1,69 @@
+  violation type: Short
+    srcs: net:net3781 net:soc.jtagBridge_1._zz_jtag_tap_isBypass\[0\] 
+    bbox = ( 902.495, 553.46 ) - ( 902.5, 553.66 ) on Layer Metal2
+  violation type: Short
+    srcs: net:soc.system_core_cpu.CsrPlugin_minstret\[40\] net:soc.system_core_cpu.CsrPlugin_minstret\[41\] 
+    bbox = ( 350.495, 965.885 ) - ( 350.5, 965.89 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:soc.system_core_cpu.CsrPlugin_minstret\[41\] 
+    bbox = ( 350.02, 965.68 ) - ( 350.5, 965.69 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_000291_ net:_016026_ 
+    bbox = ( 1256.72, 455.18 ) - ( 1256.74, 455.38 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_000516_ net:soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4\[1\] 
+    bbox = ( 1249.75, 1487.54 ) - ( 1249.77, 1487.58 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_000516_ net:soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4\[1\] 
+    bbox = ( 1249.75, 1487.53 ) - ( 1249.77, 1487.58 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_000516_ net:soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4\[1\] 
+    bbox = ( 1249.57, 1487.54 ) - ( 1249.77, 1487.58 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_000516_ net:soc.system_hyperbus_phy._zz_when_HyperBusGenericPhy_l173_4\[1\] 
+    bbox = ( 1249.57, 1487.53 ) - ( 1249.77, 1487.58 ) on Layer Metal2
+  violation type: Short
+    srcs: net:net3049 net:net3041 
+    bbox = ( 863.135, 1052.52 ) - ( 863.14, 1052.62 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_052544_ net:_052555_ 
+    bbox = ( 867.25, 1059.98 ) - ( 867.455, 1060.18 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_052542_ net:_052546_ 
+    bbox = ( 871.105, 1059.98 ) - ( 871.295, 1060.18 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_052542_ net:_052546_ 
+    bbox = ( 872.27, 1064.01 ) - ( 872.385, 1064.2 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_052542_ net:_052546_ 
+    bbox = ( 872.27, 1064.12 ) - ( 872.385, 1064.2 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_052542_ net:_052546_ 
+    bbox = ( 872.27, 1064.18 ) - ( 872.385, 1064.2 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_068001_ net:soc.jtagBridge_1._zz_jtag_tap_isBypass\[1\] 
+    bbox = ( 900.38, 549.68 ) - ( 900.58, 549.88 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_014341_ net:net2481 
+    bbox = ( 701.19, 1268.29 ) - ( 701.36, 1268.29 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_014341_ net:net2481 
+    bbox = ( 701.19, 1268.29 ) - ( 701.36, 1268.33 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_014341_ 
+    bbox = ( 700.895, 1268.08 ) - ( 701.19, 1268.09 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_054821_ net:_054870_ 
+    bbox = ( 1114.51, 984.58 ) - ( 1114.68, 984.59 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_054821_ net:_054870_ 
+    bbox = ( 1114.51, 984.58 ) - ( 1114.62, 984.59 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_054821_ net:_054870_ 
+    bbox = ( 1114.41, 985.22 ) - ( 1114.51, 985.42 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_067211_ 
+    bbox = ( 1172.26, 1181.23 ) - ( 1173.22, 1181.36 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_067211_ net:_067215_ 
+    bbox = ( 1172.07, 1181.04 ) - ( 1172.26, 1181.14 ) on Layer Metal2

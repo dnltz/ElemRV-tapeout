@@ -1,0 +1,3204 @@
+Net: _000001_
+  Pin: fanout4131/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  202.71
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000002_
+  Pin: fanout4109/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  251.20
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000003_
+  Pin: fanout4067/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  260.16
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  209.09
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000005_
+  Pin: fanout4046/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  318.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  270.46
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000006_
+  Pin: fanout4267/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  226.02
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000281_
+  Pin: _149211_/A (sg13g2_nor2b_1)
+    Layer: Metal2
+      Cumulative area ratio:  210.94
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  361.67
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  361.67
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  361.67
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000362_
+  Pin: _135457_/A0 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  230.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _096554_/A (sg13g2_and3_1)
+    Layer: Metal3
+      Cumulative area ratio:  220.72
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000363_
+  Pin: _135478_/A0 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  233.17
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _096554_/B (sg13g2_and3_1)
+    Layer: Metal3
+      Cumulative area ratio:  229.08
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  207.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000437_
+  Pin: _086336_/B_N (sg13g2_nor2b_1)
+    Layer: Metal2
+      Cumulative area ratio:  265.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  265.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  265.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  265.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _086633_/B (sg13g2_nor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  265.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  265.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  265.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  265.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000441_
+  Pin: _086667_/B (sg13g2_nor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  353.18
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  355.46
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  355.46
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _000443_
+  Pin: _086680_/B (sg13g2_nor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  335.93
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2957
+  Pin: _084567_/A1 (sg13g2_mux4_1)
+    Layer: Metal3
+      Cumulative area ratio:  213.60
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _130088_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  211.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3866
+  Pin: fanout3859/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  217.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3865/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  244.44
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net12711
+  Pin: fanout3795/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  373.09
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  420.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  420.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2773
+  Pin: fanout2769/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  222.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _080915_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  219.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _080939_/A (sg13g2_and2_1)
+    Layer: Metal3
+      Cumulative area ratio:  223.85
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2642
+  Pin: fanout2635/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  267.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _005535_
+  Pin: soc.system_core_cpu.execute_RS2\[8\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  251.84
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  251.84
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  251.84
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _005536_
+  Pin: soc.system_core_cpu.execute_RS2\[9\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  315.57
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  315.57
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  315.57
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _005558_
+  Pin: soc.system_core_cpu.execute_RS2\[31\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  293.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  293.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  293.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net4019
+  Pin: _145963_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  209.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  209.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  209.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3940
+  Pin: fanout3939/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  275.49
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  275.49
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  275.49
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _146225_/A1 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  275.49
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  275.49
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  275.49
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007178_
+  Pin: _081046_/B (sg13g2_or2_1)
+    Layer: Metal2
+      Cumulative area ratio:  268.93
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007200_
+  Pin: _081116_/A1 (sg13g2_o21ai_1)
+    Layer: TopMetal2
+      Cumulative area ratio: 1875.64
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007245_
+  Pin: _081115_/B (sg13g2_nand2_1)
+    Layer: Metal2
+      Cumulative area ratio:  222.80
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007285_
+  Pin: soc.system_core_cpu.HazardSimplePlugin_writeBackBuffer_payload_data\[0\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  206.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007348_
+  Pin: _134914_/A2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  230.01
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007470_
+  Pin: _081358_/A2 (sg13g2_a22oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  262.81
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  262.81
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  262.81
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007476_
+  Pin: _134958_/A2 (sg13g2_a22oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  201.30
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007495_
+  Pin: _081385_/A2 (sg13g2_a22oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  298.42
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  298.42
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  298.42
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007531_
+  Pin: _081423_/A2 (sg13g2_a22oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  326.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  326.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  326.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007554_
+  Pin: _081447_/A2 (sg13g2_a22oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  310.30
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  310.30
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  310.30
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007577_
+  Pin: _081472_/A2 (sg13g2_a22oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  297.94
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  297.94
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  297.94
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007614_
+  Pin: _135005_/A2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  235.97
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  235.97
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007642_
+  Pin: _135011_/A2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  213.42
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _101986_/B (sg13g2_or2_1)
+    Layer: Metal3
+      Cumulative area ratio:  250.93
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _081541_/A (sg13g2_inv_1)
+    Layer: Metal3
+      Cumulative area ratio:  236.07
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _142980_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  283.10
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _144640_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  216.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007684_
+  Pin: _102004_/B (sg13g2_or2_1)
+    Layer: Metal3
+      Cumulative area ratio:  238.17
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _081587_/A (sg13g2_inv_1)
+    Layer: Metal3
+      Cumulative area ratio:  208.44
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007718_
+  Pin: _081624_/B (sg13g2_nand2b_1)
+    Layer: Metal2
+      Cumulative area ratio:  319.20
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  319.20
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  319.20
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007781_
+  Pin: _081692_/B1 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  217.40
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007832_
+  Pin: _081748_/B (sg13g2_nand2_1)
+    Layer: Metal4
+      Cumulative area ratio:  215.66
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007870_
+  Pin: _081790_/B (sg13g2_nand2_1)
+    Layer: Metal4
+      Cumulative area ratio:  229.95
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _007888_
+  Pin: _081809_/B1 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  211.71
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _008443_
+  Pin: _082376_/A_N (sg13g2_nand3b_1)
+    Layer: Metal2
+      Cumulative area ratio:  262.10
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _009787_
+  Pin: _145217_/A1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  379.82
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _009804_
+  Pin: _152123_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  215.18
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _151742_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  213.03
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _152656_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  213.03
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _138399_/A0 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  216.12
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _009974_
+  Pin: _134689_/A2 (sg13g2_a21o_1)
+    Layer: Metal2
+      Cumulative area ratio:  208.31
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _010672_
+  Pin: _123102_/A (sg13g2_nor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  595.31
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _010885_
+  Pin: _142634_/A1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  277.26
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  303.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  303.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  303.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  303.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _123669_/A (sg13g2_nor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  277.26
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  303.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  303.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  303.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  303.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _010992_
+  Pin: _085005_/A0 (sg13g2_mux4_1)
+    Layer: Metal3
+      Cumulative area ratio:  515.69
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  484.83
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _142798_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  519.30
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _011108_
+  Pin: _085121_/A0 (sg13g2_mux4_1)
+    Layer: Metal3
+      Cumulative area ratio:  221.09
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _124728_/B (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  374.75
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _124743_/B (sg13g2_nor3_1)
+    Layer: Metal3
+      Cumulative area ratio:  374.75
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _130192_/B (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  223.32
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _011851_
+  Pin: _085878_/B2 (sg13g2_a221oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  337.61
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _143558_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  251.99
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _120169_/B (sg13g2_nor3_1)
+    Layer: Metal3
+      Cumulative area ratio:  255.61
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _011890_
+  Pin: _120133_/A (sg13g2_nor2_2)
+    Layer: Metal3
+      Cumulative area ratio:  267.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _085920_/B2 (sg13g2_a221oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  409.79
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _143597_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  326.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _140065_/A (sg13g2_xnor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  323.41
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _120451_/A1 (sg13g2_o21ai_1)
+    Layer: Metal3
+      Cumulative area ratio:  265.20
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  236.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _117057_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  267.81
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _012090_
+  Pin: _134708_/A1 (sg13g2_o21ai_1)
+    Layer: TopMetal2
+      Cumulative area ratio:  900.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _086122_/A2 (sg13g2_a21oi_1)
+    Layer: TopMetal2
+      Cumulative area ratio:  895.93
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _012462_
+  Pin: _086511_/A (sg13g2_nor2b_1)
+    Layer: Metal2
+      Cumulative area ratio:  349.75
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _012498_
+  Pin: _086548_/A (sg13g2_nor2b_1)
+    Layer: Metal2
+      Cumulative area ratio:  289.60
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _012536_
+  Pin: _086587_/A (sg13g2_nor2b_1)
+    Layer: Metal2
+      Cumulative area ratio:  212.13
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _012659_
+  Pin: soc._zz_io_input_w_payload_data_2\[21\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  369.16
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  407.92
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  407.92
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _012966_
+  Pin: sg13g2_IOPadInOut4mA_5_c2p$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  729.63
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  729.63
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  729.63
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _013605_
+  Pin: soc.io_plat_spiXip_sclk$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  237.64
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _013952_
+  Pin: _100512_/A (sg13g2_and2_2)
+    Layer: Metal2
+      Cumulative area ratio:  323.62
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _014030_
+  Pin: _088140_/A1 (sg13g2_o21ai_1)
+    Layer: Metal2
+      Cumulative area ratio:  250.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  253.43
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  253.43
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _015392_
+  Pin: _109760_/A1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  209.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  213.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  213.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  213.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _015590_
+  Pin: _154651_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  318.18
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: soc.system_core_cpu.IBusSimplePlugin_injector_decodeInput_payload_rsp_inst\[15\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  314.50
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _015656_
+  Pin: _154652_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  337.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: soc.system_core_cpu.IBusSimplePlugin_injector_decodeInput_payload_rsp_inst\[16\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  320.16
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _015740_
+  Pin: _154655_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  317.09
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: soc.system_core_cpu.IBusSimplePlugin_injector_decodeInput_payload_rsp_inst\[19\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  332.88
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _015778_
+  Pin: _154656_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  362.21
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: soc.system_core_cpu.IBusSimplePlugin_injector_decodeInput_payload_rsp_inst\[20\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  375.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _015809_
+  Pin: _154657_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  355.11
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: soc.system_core_cpu.IBusSimplePlugin_injector_decodeInput_payload_rsp_inst\[21\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  361.48
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _015877_
+  Pin: _154659_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  375.11
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: soc.system_core_cpu.IBusSimplePlugin_injector_decodeInput_payload_rsp_inst\[23\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  379.11
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _015909_
+  Pin: soc.system_core_cpu.IBusSimplePlugin_injector_decodeInput_payload_rsp_inst\[24\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  421.38
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  421.38
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _016174_
+  Pin: _090345_/B (sg13g2_and2_1)
+    Layer: Metal3
+      Cumulative area ratio:  326.23
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  319.83
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _137073_/B (sg13g2_nand2_2)
+    Layer: Metal3
+      Cumulative area ratio:  328.08
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _137005_/B (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  328.08
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _016211_
+  Pin: _137792_/A (sg13g2_nor3_1)
+    Layer: Metal3
+      Cumulative area ratio:  219.82
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _016218_
+  Pin: _090389_/D (sg13g2_nor4_2)
+    Layer: Metal3
+      Cumulative area ratio:  222.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _019928_
+  Pin: fanout561/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  374.64
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  361.80
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _094532_/B (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  386.13
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _019939_
+  Pin: _094530_/A2 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  315.78
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _020120_
+  Pin: fanout435/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  494.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  494.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  494.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _020652_
+  Pin: _095249_/A2 (sg13g2_mux4_1)
+    Layer: Metal3
+      Cumulative area ratio:  225.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _021354_
+  Pin: _096019_/B2 (sg13g2_a22oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  348.40
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  351.65
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  351.65
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _022570_
+  Pin: _097337_/A1 (sg13g2_o21ai_1)
+    Layer: Metal2
+      Cumulative area ratio:  242.52
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  245.36
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  245.36
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _022586_
+  Pin: _110954_/A (sg13g2_nor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  213.01
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _022602_
+  Pin: _097365_/A1 (sg13g2_o21ai_1)
+    Layer: Metal2
+      Cumulative area ratio:  232.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  234.90
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  234.90
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _024395_
+  Pin: _099702_/A_N (sg13g2_nand2b_1)
+    Layer: Metal3
+      Cumulative area ratio:  432.09
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  224.78
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _149211_/B_N (sg13g2_nor2b_1)
+    Layer: Metal3
+      Cumulative area ratio:  432.09
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  224.78
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _024663_
+  Pin: _100013_/A0 (sg13g2_mux4_1)
+    Layer: Metal3
+      Cumulative area ratio:  204.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _025244_
+  Pin: fanout171/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  339.13
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _025289_
+  Pin: fanout166/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  341.63
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  345.38
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  345.38
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _031780_
+  Pin: fanout1236/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  240.52
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _033735_
+  Pin: _110888_/B1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  258.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  258.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  258.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _037802_
+  Pin: _115863_/A2 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  234.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _037994_
+  Pin: _120813_/C1 (sg13g2_a221oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  219.72
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _116091_/A1 (sg13g2_o21ai_1)
+    Layer: Metal3
+      Cumulative area ratio:  217.57
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _116875_/B1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  221.45
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _038008_
+  Pin: _139979_/A (sg13g2_xnor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  247.23
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _125589_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  255.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _125656_/B (sg13g2_nor3_2)
+    Layer: Metal3
+      Cumulative area ratio:  255.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _127566_/A (sg13g2_nor2_2)
+    Layer: Metal3
+      Cumulative area ratio:  248.83
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _116111_/A (sg13g2_nor3_2)
+    Layer: Metal3
+      Cumulative area ratio:  247.23
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _038087_
+  Pin: _119000_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  250.56
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  250.56
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _038498_
+  Pin: _120324_/B1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  266.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  292.45
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  292.45
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _039090_
+  Pin: _119929_/A (sg13g2_xnor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  207.64
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _040100_
+  Pin: fanout2274/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  335.41
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _042679_
+  Pin: fanout2272/A (sg13g2_buf_2)
+    Layer: Metal4
+      Cumulative area ratio:  285.38
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout2271/A (sg13g2_buf_2)
+    Layer: Metal4
+      Cumulative area ratio:  422.68
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _042902_
+  Pin: _121037_/A2 (sg13g2_o21ai_1)
+    Layer: Metal2
+      Cumulative area ratio:  251.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  251.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  251.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _042988_
+  Pin: _121123_/A2 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  290.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  290.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  290.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _043030_
+  Pin: _121163_/C (sg13g2_nor3_1)
+    Layer: Metal2
+      Cumulative area ratio:  263.32
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _044566_
+  Pin: fanout2270/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  249.02
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _044695_
+  Pin: _122838_/A2 (sg13g2_o21ai_1)
+    Layer: Metal2
+      Cumulative area ratio:  263.84
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  263.84
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  263.84
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _049195_
+  Pin: fanout2264/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  244.92
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net11343
+  Pin: _147910_/A (sg13g2_nand3_1)
+    Layer: Metal2
+      Cumulative area ratio:  623.88
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net11335
+  Pin: fanout4417/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  225.48
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _147943_/A (sg13g2_nand3_1)
+    Layer: Metal3
+      Cumulative area ratio:  258.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _087820_/A (sg13g2_and2_1)
+    Layer: Metal3
+      Cumulative area ratio:  254.44
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _057701_
+  Pin: _136128_/B (sg13g2_nand3_1)
+    Layer: Metal3
+      Cumulative area ratio:  438.93
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout549/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  432.14
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  422.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059224_
+  Pin: _137684_/C1 (sg13g2_a221oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  202.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  202.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  202.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059268_
+  Pin: _137730_/C1 (sg13g2_a221oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  232.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  232.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  232.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059291_
+  Pin: _137754_/C1 (sg13g2_a221oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  239.04
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  239.04
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  239.04
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059348_
+  Pin: _137824_/B1 (sg13g2_a221oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  450.94
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059375_
+  Pin: _137849_/B1 (sg13g2_a221oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  450.84
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059436_
+  Pin: _137919_/A2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  414.81
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059500_
+  Pin: _137983_/A2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  235.61
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _153578_/B_N (sg13g2_nor2b_1)
+    Layer: Metal3
+      Cumulative area ratio:  233.05
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059520_
+  Pin: _138008_/A2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  239.51
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _153580_/A (sg13g2_and4_1)
+    Layer: Metal3
+      Cumulative area ratio:  218.63
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059544_
+  Pin: _138030_/A2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  246.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _153580_/B (sg13g2_and4_1)
+    Layer: Metal3
+      Cumulative area ratio:  212.89
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059565_
+  Pin: _138049_/A2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  251.80
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _153580_/C (sg13g2_and4_1)
+    Layer: Metal3
+      Cumulative area ratio:  247.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059611_
+  Pin: _153582_/B1 (sg13g2_a21o_2)
+    Layer: Metal3
+      Cumulative area ratio:  210.93
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  210.93
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  210.93
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _059632_
+  Pin: _138112_/B1 (sg13g2_a22oi_1)
+    Layer: Metal4
+      Cumulative area ratio:  296.28
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _061600_
+  Pin: soc.soc_system_hyperbus_ctrl_io_memory_arbiter_io_output_w_rData_data\[13\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  231.22
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  239.92
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  239.92
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _061620_
+  Pin: soc.soc_system_hyperbus_ctrl_io_memory_arbiter_io_output_w_rData_data\[17\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  393.97
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  398.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  398.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _062095_
+  Pin: soc.soc_system_hyperbus_ctrl_io_memory_arbiter_io_output_arw_rData_addr\[29\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  307.41
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  272.83
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _141243_/A0 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  307.77
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _062182_
+  Pin: fanout546/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  385.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _063549_
+  Pin: soc.system_core_cpu.execute_RS2\[10\]$_DFFE_PN_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  340.35
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  326.79
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _064754_
+  Pin: _144078_/A2 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  217.97
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _065546_
+  Pin: _144886_/A2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  224.34
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _066066_
+  Pin: _145421_/B1 (sg13g2_a21o_1)
+    Layer: Metal3
+      Cumulative area ratio:  213.22
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net4384
+  Pin: fanout4332/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  391.68
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  391.68
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  391.68
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout4383/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  391.68
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  391.68
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  391.68
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net4332
+  Pin: fanout4319/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  410.40
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  324.17
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _153276_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  449.02
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _153262_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  444.02
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout4316/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  415.40
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout4314/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  412.78
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net4296
+  Pin: fanout4274/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  585.40
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout4286/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  513.20
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _147905_/A (sg13g2_nor3_1)
+    Layer: Metal3
+      Cumulative area ratio:  510.01
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  432.72
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout4295/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  269.92
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net4288
+  Pin: soc.system_core_cpu._zz_5$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  382.51
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net4011
+  Pin: fanout4010/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  416.42
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout4005/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  414.81
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  314.22
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3980
+  Pin: fanout3977/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  289.40
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3924
+  Pin: fanout3923/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  213.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3921
+  Pin: fanout3915/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  300.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  260.10
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3913/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  399.60
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3911/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  305.17
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3891
+  Pin: fanout3887/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  215.13
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3884/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  214.99
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3890/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  211.54
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3851
+  Pin: _150553_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  303.26
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _150471_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  299.76
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _150635_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  298.16
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _150370_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  303.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _149421_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  294.31
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3733
+  Pin: fanout3724/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  202.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  202.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3500
+  Pin: fanout3499/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  247.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3441
+  Pin: fanout3440/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  222.96
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  222.96
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _088150_/A (sg13g2_nor2b_1)
+    Layer: Metal2
+      Cumulative area ratio:  279.45
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3440
+  Pin: fanout3437/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  217.55
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _067969_
+  Pin: _153287_/A (sg13g2_and2_1)
+    Layer: Metal3
+      Cumulative area ratio:  203.12
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _147600_/B (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  203.12
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3309
+  Pin: fanout3305/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  276.77
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3258
+  Pin: fanout3251/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  215.61
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3253/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  208.10
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3249
+  Pin: fanout3242/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  527.12
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  587.22
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  587.22
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  587.22
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3229
+  Pin: fanout3228/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  220.42
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3212
+  Pin: _118891_/A (sg13g2_nor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  234.64
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3211
+  Pin: fanout3206/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  202.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  231.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  231.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  231.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3197
+  Pin: fanout3196/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  212.35
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3178
+  Pin: fanout3177/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  371.48
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  332.94
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3173/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  400.34
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3172/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  374.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3171
+  Pin: _083670_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  223.19
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _145180_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  219.72
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _119782_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  267.43
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _119635_/A (sg13g2_xor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  267.43
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _119790_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  265.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _119448_/B (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  267.04
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _119287_/B (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  265.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _119114_/B (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  265.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3164
+  Pin: fanout3163/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  244.21
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3156
+  Pin: fanout3155/A (sg13g2_buf_1)
+    Layer: Metal4
+      Cumulative area ratio:  210.14
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3149/A (sg13g2_buf_2)
+    Layer: Metal4
+      Cumulative area ratio:  225.18
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3122
+  Pin: fanout3113/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  398.15
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  454.02
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  454.02
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3102
+  Pin: fanout3100/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  221.46
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3099
+  Pin: fanout3097/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  217.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3095
+  Pin: fanout3091/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  207.16
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3050
+  Pin: fanout3049/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  343.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  373.82
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  373.82
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net3032
+  Pin: fanout3029/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  353.46
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2986
+  Pin: _085421_/A1 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  247.07
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _143177_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  243.92
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout2980/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  282.67
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout2979/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  260.91
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout2985/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  264.89
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2964
+  Pin: _126012_/A (sg13g2_nand2_1)
+    Layer: Metal2
+      Cumulative area ratio:  247.70
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2953
+  Pin: fanout2951/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  240.38
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2948
+  Pin: fanout2946/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  213.21
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2928
+  Pin: fanout2925/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  212.78
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2919
+  Pin: fanout2918/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  227.64
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2911
+  Pin: fanout2910/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  254.98
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2909
+  Pin: fanout2908/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  207.28
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2902
+  Pin: fanout2901/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  232.65
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2887
+  Pin: fanout2886/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  233.76
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2877
+  Pin: _086808_/B (sg13g2_nand2_1)
+    Layer: Metal2
+      Cumulative area ratio:  206.58
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2865
+  Pin: _084610_/A1 (sg13g2_mux4_1)
+    Layer: Metal3
+      Cumulative area ratio:  209.18
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2862
+  Pin: fanout2861/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  203.80
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2835
+  Pin: fanout2834/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  284.21
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2829
+  Pin: _084729_/A1 (sg13g2_mux4_1)
+    Layer: Metal3
+      Cumulative area ratio:  210.54
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2820
+  Pin: fanout2819/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  222.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2811
+  Pin: fanout2810/A (sg13g2_buf_2)
+    Layer: Metal4
+      Cumulative area ratio:  404.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  351.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  296.44
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout2808/A (sg13g2_buf_2)
+    Layer: Metal4
+      Cumulative area ratio:  409.16
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  356.83
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _086331_/A1 (sg13g2_mux2_1)
+    Layer: Metal4
+      Cumulative area ratio:  408.78
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  356.45
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2803
+  Pin: fanout2798/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  225.69
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2753
+  Pin: fanout2752/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  220.26
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2593
+  Pin: _150984_/A (sg13g2_nand3_1)
+    Layer: Metal3
+      Cumulative area ratio:  284.52
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _150996_/A (sg13g2_nand3_1)
+    Layer: Metal3
+      Cumulative area ratio:  297.28
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _151000_/A (sg13g2_nand3_1)
+    Layer: Metal3
+      Cumulative area ratio:  295.37
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _150991_/A (sg13g2_nand3_1)
+    Layer: Metal3
+      Cumulative area ratio:  295.37
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _088592_/B (sg13g2_nand3_1)
+    Layer: Metal3
+      Cumulative area ratio:  282.71
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  267.36
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _094377_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  288.25
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2592
+  Pin: _110226_/A (sg13g2_inv_1)
+    Layer: Metal2
+      Cumulative area ratio:  228.90
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  240.91
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  240.91
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  240.91
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2570
+  Pin: _111109_/A (sg13g2_and3_1)
+    Layer: Metal2
+      Cumulative area ratio:  327.98
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _069240_
+  Pin: fanout97/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  203.69
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout96/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  202.35
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2407
+  Pin: _144893_/A1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  600.07
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2397
+  Pin: _120835_/A (sg13g2_nor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  244.17
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2395
+  Pin: _084949_/A0 (sg13g2_mux4_1)
+    Layer: Metal3
+      Cumulative area ratio:  507.84
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _142751_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  441.26
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _132548_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  437.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  365.77
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2386
+  Pin: _085727_/B2 (sg13g2_a221oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  211.38
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _143431_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  206.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2385
+  Pin: _120280_/A (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  206.14
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  206.14
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  206.14
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2274
+  Pin: _143721_/A1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  211.71
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  232.57
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  232.57
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2270
+  Pin: _125316_/A1 (sg13g2_a221oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  200.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  224.81
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  224.81
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2269
+  Pin: _125048_/A1 (sg13g2_a22oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  200.50
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2204
+  Pin: _082769_/A1 (sg13g2_a21o_1)
+    Layer: Metal3
+      Cumulative area ratio:  298.31
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  293.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _151915_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  301.26
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _082767_/B (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  301.26
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2201
+  Pin: _082822_/A1 (sg13g2_a21o_1)
+    Layer: Metal3
+      Cumulative area ratio:  306.51
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _151929_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  306.51
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _082820_/B (sg13g2_nor2_1)
+    Layer: Metal3
+      Cumulative area ratio:  306.51
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _134248_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  303.77
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout2200/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  300.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  296.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net2266
+  Pin: _144647_/A1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  310.23
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  329.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  329.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _070110_
+  Pin: _150150_/A_N (sg13g2_nand2b_1)
+    Layer: Metal3
+      Cumulative area ratio:  258.12
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1910
+  Pin: fanout1906/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  306.49
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  352.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  352.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  352.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1878
+  Pin: fanout1876/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  255.45
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1797
+  Pin: fanout1788/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  282.14
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  220.97
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1794/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  285.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1795/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  379.62
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1796/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  381.04
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1774
+  Pin: fanout1771/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  351.57
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal4
+      Cumulative area ratio:  356.07
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1773/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  345.70
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal4
+      Cumulative area ratio:  350.21
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1762
+  Pin: fanout1753/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  284.25
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal4
+      Cumulative area ratio:  287.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1759/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  210.50
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal4
+      Cumulative area ratio:  213.51
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1761/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  345.55
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal4
+      Cumulative area ratio:  348.57
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1760/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  206.63
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal4
+      Cumulative area ratio:  209.65
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1514
+  Pin: fanout1512/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  278.56
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  213.11
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1513/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  279.90
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _144550_/A2 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  283.99
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1495
+  Pin: fanout1492/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  463.26
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1479
+  Pin: fanout1474/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  215.57
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1447
+  Pin: _123862_/A1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  207.61
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1288
+  Pin: fanout1285/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  206.55
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net1263
+  Pin: fanout1254/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  265.55
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  205.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1260/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  267.48
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1261/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  268.97
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout1262/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  382.48
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net713
+  Pin: fanout712/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  239.71
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  214.50
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _113912_/A2 (sg13g2_o21ai_1)
+    Layer: Metal3
+      Cumulative area ratio:  245.03
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _113911_/B (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  245.03
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net709
+  Pin: fanout708/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  210.16
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  210.16
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net689
+  Pin: fanout687/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  203.65
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net684
+  Pin: fanout682/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  222.91
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  240.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  240.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  240.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net664
+  Pin: fanout663/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  206.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: net635
+  Pin: fanout629/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  211.68
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  236.19
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  236.19
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _072913_
+  Pin: _153434_/B1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  252.10
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _072940_
+  Pin: _153470_/A2 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  329.90
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  329.90
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  329.90
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _072956_
+  Pin: _153484_/B1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  229.96
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _072963_
+  Pin: _153492_/B1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  295.23
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _072973_
+  Pin: _153504_/B1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  313.64
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _072992_
+  Pin: _153526_/B1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  284.98
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _073004_
+  Pin: _153540_/B1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  253.39
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _073025_
+  Pin: _153565_/B1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  205.15
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _073035_
+  Pin: _153577_/B1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  213.66
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _073143_
+  Pin: soc.axi4ReadOnlyDecoder_1.io_outputs_0_r_payload_data\[27\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  219.54
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  219.54
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  219.54
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _073457_
+  Pin: soc.system_core_cpu._zz__zz_decode_RS2_2\[27\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  504.48
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  477.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: _073565_
+  Pin: soc.system_core_cpu._zz__zz_decode_RS2_2\[30\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  350.53
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadInOut30mA_1_p2c
+  Pin: soc.system_hyperbus_phy.io_hyperbus_dq_read_buffercc.buffers_0\[0\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  238.03
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadInOut30mA_2_p2c
+  Pin: soc.system_hyperbus_phy.io_hyperbus_dq_read_buffercc.buffers_0\[1\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  648.44
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  483.66
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadInOut30mA_3_p2c
+  Pin: soc.system_hyperbus_phy.io_hyperbus_dq_read_buffercc.buffers_0\[2\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  435.76
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  272.45
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadInOut30mA_4_p2c
+  Pin: soc.system_hyperbus_phy.io_hyperbus_dq_read_buffercc.buffers_0\[3\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  310.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadInOut30mA_6_p2c
+  Pin: soc.system_hyperbus_phy.io_hyperbus_dq_read_buffercc.buffers_0\[5\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  209.08
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadInOut30mA_9_p2c
+  Pin: soc.system_hyperbus_phy.io_hyperbus_rwds_read_buffercc.buffers_0$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  205.11
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadInOut4mA_2_c2p
+  Pin: _148628_/B (sg13g2_nand2b_1)
+    Layer: Metal2
+      Cumulative area ratio:  589.05
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  684.50
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  684.50
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  684.50
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadInOut4mA_4_p2c
+  Pin: soc.peripherals_gpioStatusCtrl.ctrl.io_gpio_pins_read_buffercc.buffers_0\[3\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  232.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadInOut4mA_6_p2c
+  Pin: _106077_/A1 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  302.91
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: sg13g2_IOPadOut4mA_4_c2p
+  Pin: _147490_/A1 (sg13g2_a21o_1)
+    Layer: Metal2
+      Cumulative area ratio:  342.18
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  551.75
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  551.75
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc._zz_io_input_arw_payload_size\[1\]
+  Pin: fanout2754/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  301.67
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc._zz_io_input_w_payload_data_3\[20\]
+  Pin: _141400_/A0 (sg13g2_mux2_1)
+    Layer: Metal2
+      Cumulative area ratio:  211.67
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  258.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  258.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.apb3Router_1.io_input_PWDATA\[0\]
+  Pin: fanout3980/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  269.48
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3984/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  272.37
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  272.37
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  272.37
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.apb3Router_1.io_input_PWDATA\[3\]
+  Pin: fanout3921/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  332.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3924/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  268.46
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  268.46
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  268.46
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.apb3Router_1.io_input_PWDATA\[4\]
+  Pin: fanout3908/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  246.22
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  421.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  421.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  421.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.apb3Router_1.io_input_PWDATA\[5\]
+  Pin: fanout3891/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  284.64
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3892/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  423.60
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3893/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  420.78
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  253.99
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.apb3Router_1.io_input_PWDATA\[8\]
+  Pin: fanout3850/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  240.31
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3851/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  238.73
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3852/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  263.99
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  263.99
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  263.99
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.axi4ReadOnlyDecoder_1.errorSlave.io_axi_ar_payload_addr\[2\]
+  Pin: _140909_/A (sg13g2_and2_1)
+    Layer: Metal2
+      Cumulative area ratio:  209.06
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  213.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  213.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.axi4ReadOnlyDecoder_1.errorSlave.io_axi_ar_payload_addr\[6\]
+  Pin: _140956_/A (sg13g2_and2_1)
+    Layer: Metal2
+      Cumulative area ratio:  229.47
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  234.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  234.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  234.29
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.axi4ReadOnlyDecoder_1.errorSlave.io_axi_r_valid
+  Pin: fanout3826/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  303.40
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  298.97
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _115002_/A (sg13g2_nor3_1)
+    Layer: Metal3
+      Cumulative area ratio:  307.14
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _084454_/B2 (sg13g2_a22oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  307.14
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.axi4SharedDecoder_1.io_sharedOutputs_1_r_payload_data\[18\]
+  Pin: _153421_/A (sg13g2_inv_1)
+    Layer: Metal2
+      Cumulative area ratio:  299.13
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  302.19
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  302.19
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.io_plat_hyperbus_reset
+  Pin: _150816_/B1 (sg13g2_o21ai_1)
+    Layer: Metal2
+      Cumulative area ratio:  362.25
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  455.30
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  455.30
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.jtagBridge_1.flowCCByToggle_1.io_output_valid
+  Pin: _147606_/A (sg13g2_inv_1)
+    Layer: Metal2
+      Cumulative area ratio:  228.44
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.peripherals_gpioStatusCtrl.ctrl.io_gpio_pins_read_buffercc.buffers_0\[3\]
+  Pin: soc.peripherals_gpioStatusCtrl.ctrl.io_gpio_pins_read_buffercc.buffers_1\[3\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal4
+      Cumulative area ratio: 1010.38
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.peripherals_uartStdCtrl.ctrl.io_read_payload\[7\]
+  Pin: fanout3683/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  228.54
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  228.54
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.peripherals_uartStdCtrl.peripherals_uartStdCtrl_ctrl_io_read_queueWithOccupancy._zz_logic_ram_port1\[1\]
+  Pin: _137275_/A1 (sg13g2_a21oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  261.08
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.peripherals_uartStdCtrl.peripherals_uartStdCtrl_ctrl_io_read_queueWithOccupancy._zz_logic_ram_port1\[3\]
+  Pin: _137421_/A1 (sg13g2_a221oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  281.44
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.peripherals_uartStdCtrl.peripherals_uartStdCtrl_ctrl_io_read_queueWithOccupancy._zz_logic_ram_port1\[5\]
+  Pin: _100076_/A0 (sg13g2_mux2_1)
+    Layer: Metal2
+      Cumulative area ratio:  241.90
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  432.76
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  432.76
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  432.76
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.peripherals_uartStdCtrl.peripherals_uartStdCtrl_ctrl_io_read_queueWithOccupancy._zz_logic_ram_port1\[6\]
+  Pin: _137539_/A1 (sg13g2_a221oi_1)
+    Layer: Metal3
+      Cumulative area ratio:  271.24
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _100132_/A0 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  359.79
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  359.79
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  359.79
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.peripherals_uartStdCtrl.peripherals_uartStdCtrl_ctrl_io_read_queueWithOccupancy._zz_logic_ram_port1\[8\]
+  Pin: _137594_/A (sg13g2_nand2_1)
+    Layer: Metal3
+      Cumulative area ratio:  455.48
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _100226_/A0 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  344.46
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.soc_system_apbBridge_io_axi_arbiter_io_output_w_halfPipe_valid
+  Pin: fanout3510/A (sg13g2_buf_4)
+    Layer: Metal2
+      Cumulative area ratio:  273.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.soc_system_hyperbus_ctrl_io_memory_r_s2mPipe_payload_data\[19\]
+  Pin: soc.axi4ReadOnlyDecoder_1.io_outputs_0_r_payload_data\[19\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  231.63
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.soc_system_hyperbus_ctrl_io_memory_r_s2mPipe_payload_last
+  Pin: _093556_/A1 (sg13g2_a21o_1)
+    Layer: Metal2
+      Cumulative area ratio:  230.14
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  245.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  245.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  245.59
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu._zz__zz_decode_IS_CSR_10\[23\]
+  Pin: _145794_/A1 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  305.37
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu._zz_memory_MUL_LOW_6\[31\]
+  Pin: _154211_/B (sg13g2_nor2_1)
+    Layer: Metal2
+      Cumulative area ratio:  301.52
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.decode_to_execute_IS_MUL
+  Pin: _146057_/A0 (sg13g2_mux2_1)
+    Layer: Metal3
+      Cumulative area ratio:  200.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  200.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS1\[22\]
+  Pin: fanout3192/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  349.01
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  315.81
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3193/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  531.67
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS1\[23\]
+  Pin: fanout3186/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  516.77
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS1\[24\]
+  Pin: fanout3180/A (sg13g2_buf_1)
+    Layer: Metal4
+      Cumulative area ratio:  460.87
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  355.07
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  211.41
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS1\[30\]
+  Pin: fanout3129/A (sg13g2_buf_2)
+    Layer: Metal4
+      Cumulative area ratio:  346.11
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  238.23
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _123269_/B (sg13g2_nand2_1)
+    Layer: Metal4
+      Cumulative area ratio:  349.54
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  241.67
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS1\[8\]
+  Pin: fanout3074/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  348.33
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  284.09
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS2\[0\]
+  Pin: fanout3062/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  405.08
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS2\[11\]
+  Pin: fanout3043/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  265.36
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout3048/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  269.74
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS2\[16\]
+  Pin: fanout3004/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  314.45
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS2\[17\]
+  Pin: fanout2986/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  344.72
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  315.27
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout2992/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  346.13
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS2\[1\]
+  Pin: fanout2957/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  322.54
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  308.85
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout2963/A (sg13g2_buf_2)
+    Layer: Metal3
+      Cumulative area ratio:  328.88
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS2\[22\]
+  Pin: fanout2935/A (sg13g2_buf_2)
+    Layer: Metal4
+      Cumulative area ratio:  214.95
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: fanout2936/A (sg13g2_buf_1)
+    Layer: Metal4
+      Cumulative area ratio:  212.20
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS2\[24\]
+  Pin: fanout2915/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  311.49
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  399.97
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  399.97
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+  Pin: _086759_/B (sg13g2_nand2_1)
+    Layer: Metal2
+      Cumulative area ratio:  241.62
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS2\[5\]
+  Pin: fanout2828/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  262.70
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_core_cpu.execute_RS2\[9\]
+  Pin: fanout2794/A (sg13g2_buf_2)
+    Layer: Metal2
+      Cumulative area ratio:  361.95
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  373.02
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  373.02
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_hyperbus_ctrl.Axi4Incr_base\[7\]
+  Pin: _110899_/A1 (sg13g2_a21oi_1)
+    Layer: Metal2
+      Cumulative area ratio:  327.95
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  330.42
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  330.42
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_hyperbus_ctrl.hyperbus.ctrl.frontend.logic_pop_addressGen_payload\[1\]
+  Pin: fanout2679/A (sg13g2_buf_1)
+    Layer: Metal2
+      Cumulative area ratio:  225.83
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  256.11
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  256.11
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal3
+      Cumulative area ratio:  256.11
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_hyperbus_ctrl.hyperbus.ctrl.frontend.logic_pop_addressGen_payload\[3\]
+  Pin: fanout2616/A (sg13g2_buf_1)
+    Layer: Metal3
+      Cumulative area ratio:  215.09
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  207.01
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_hyperbus_phy.io_hyperbus_dq_read_buffercc.buffers_0\[0\]
+  Pin: soc.system_hyperbus_phy.io_hyperbus_dq_read_buffercc.buffers_1\[0\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal2
+      Cumulative area ratio:  602.56
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+Net: soc.system_hyperbus_phy.io_hyperbus_dq_read_buffercc.buffers_0\[7\]
+  Pin: soc.system_hyperbus_phy.io_hyperbus_dq_read_buffercc.buffers_1\[7\]$_DFF_P_/D (sg13g2_dfrbp_1)
+    Layer: Metal3
+      Cumulative area ratio:  682.21
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+    Layer: Metal2
+      Cumulative area ratio:  615.91
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
