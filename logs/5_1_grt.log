@@ -3605,4 +3605,4 @@ Design area 787341 u^2 54% utilization.
 [INFO FLW-0007] clock clk_core period 40.000000
 [WARNING FLW-0010] more than one clock found. Skipping sdc update.
 [INFO FLW-0011] Path endpoint count 13558
-Elapsed time: 0:54.42[h:]min:sec. CPU time: user 53.95 sys 0.45 (99%). Peak memory: 828916KB.
+Elapsed time: 0:56.23[h:]min:sec. CPU time: user 55.66 sys 0.51 (99%). Peak memory: 830156KB.

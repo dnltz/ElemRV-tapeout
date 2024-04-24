@@ -144,4 +144,4 @@ Warning: There are 23 unconstrained endpoints.
 global place report_design_area
 --------------------------------------------------------------------------
 Design area 678769 u^2 47% utilization.
-Elapsed time: 1:03.24[h:]min:sec. CPU time: user 76.80 sys 0.18 (121%). Peak memory: 541684KB.
+Elapsed time: 1:04.52[h:]min:sec. CPU time: user 79.25 sys 0.19 (123%). Peak memory: 540968KB.

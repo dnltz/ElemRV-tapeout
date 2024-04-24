@@ -74,7 +74,6 @@ Design area 1448218 u^2 100% utilization.
 [WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/final_ir_drop.webp.png
 [WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/final_clocks.webp.png
 [WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/final_resizer.webp.png
-[WARNING GUI-0076] QXcbConnection: XCB error: 13 (BadGC), sequence: 990, resource id: 0, major code: 130 (Unknown), minor code: 3
 [WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/cts_clk_core.webp.png
 [WARNING GUI-0010] File path does not end with a valid extension, new path is: ./reports/ihp-sg13g2/ElemRV/base/cts_clk_jtag.webp.png
-Elapsed time: 1:11.91[h:]min:sec. CPU time: user 71.21 sys 0.66 (99%). Peak memory: 1376580KB.
+Elapsed time: 1:13.01[h:]min:sec. CPU time: user 72.20 sys 0.63 (99%). Peak memory: 1377716KB.
